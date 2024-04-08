@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+body {
+  font-family: "Inter", sans-serif; /* Apply Inter font to the body */
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  background: rgb(255, 255, 255);
+  margin-bottom: 20px;
+  margin: 0 auto;
+}
+
+.nav-logo img {
+  width: 148px;
+  height: 50px;
+}
+.nav-menu ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center; /* Align items vertically */
+}
+
+.nav-menu ul li {
+  margin: 0 20px;
+}
+
+.nav-menu ul li .link {
+  text-decoration: none;
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  padding-bottom: 15px;
+}
+
+.link:hover,
+.active {
+  border-bottom: 2px solid #000;
+  color: black;
+}
+
+.login-btn {
+  /* height: 40px; Adjust height to match other items */
+  padding: 5px 25px; /* Add padding to the button */
+  display: flex; /* Display button as a flex container */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  font-weight: 600;
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+  transition: 0.1s ease;
+  font-size: 15px;
+  width: 110px;
+  border: none;
+  height: 33px;
+}
+
+.signup-btn {
+  /* height: 40px; Adjust height to match other items */
+  padding: 5px 25px; /* Add padding to the button */
+  /* display: flex; Display button as a flex container */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  font-weight: 600;
+  background-color: rgb(241, 201, 40);
+  border: 1px solid rgb(241, 201, 40);
+  border-radius: 7px;
+  cursor: pointer;
+  transition: 0.1s ease;
+  font-size: 15px;
+  width: 110px;
+  height: 33px;
+}
+
+/* .nav-button {
+  /* height: 40px; Adjust height to match other items */
+/* padding: 5px 25px; /* Add padding to the button */
+/* justify-content: center; Center content horizontally */
+/* align-items: center; Center content vertically  */
+/* font-weight: 600;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(241, 201, 40);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.1s ease;
+  font-size: 15px;
+  width: 110px;
+  height: 33px;
+  gap: 20px;
+} */
+
+.nav-button {
+  display: flex; /*Display button as a flex container */
+  gap: 20px;
+}
+
+.login-btn a {
+  color: rgb(241, 201, 40);
+  text-decoration: none;
+}
+
+.signup-btn a {
+  color: #000;
+  text-decoration: none;
+}
+
+.login-btn:hover {
+  background: rgba(255, 255, 255, 0.7);
+}
