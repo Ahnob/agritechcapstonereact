@@ -1,6 +1,7 @@
 import "./Home.css";
 import Navbars from "./Navbars";
-// import AboutUs from "./components/AboutUs";
+import AboutUs from "./AboutUs";
+// import AboutUs from "./AboutUs";
 // import Footer from "./components/Footer";
 // import Verify from "./components/Verify";
 // import Whatweoffer from "./components/Whatweoffer";
@@ -33,6 +34,9 @@ function Home() {
             <button className="getstarted_button bolder">Get started</button>
           </div>
         </div>
+      </div>
+      <div>
+        <AboutUs />
       </div>
     </>
   );
