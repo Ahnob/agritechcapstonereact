@@ -1,18 +1,17 @@
 import "./Home.css";
 import Navbars from "./Navbars";
 import AboutUs from "./AboutUs";
-// import AboutUs from "./AboutUs";
-// import Footer from "./components/Footer";
-// import Verify from "./components/Verify";
-// import Whatweoffer from "./components/Whatweoffer";
+import Footer from "./Footer";
+import Offer from "./Whatweoffer";
 import welcome_photo from "../assets/welcomebackgrounimage.png";
 
 function Home() {
   return (
     <>
       <Navbars />
-      <div className="section1">
+      {/* <div className="section1">
         <img className="image" src={welcome_photo} alt="" />
+
         <div className="firstp">
           <p className="welcome text" id="welcome">
             Welcome to
@@ -37,7 +36,9 @@ function Home() {
       </div>
       <div>
         <AboutUs />
-      </div>
+        <Offer />
+        <Footer />
+      </div> */}
     </>
   );
 }

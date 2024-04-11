@@ -1,18 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
-
-body {
-  font-family: "Inter", sans-serif; /* Apply Inter font to the body */
-  width: 100%;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 .nav {
-  position: fixed;
   top: 0;
   display: flex;
   justify-content: space-around;
@@ -27,17 +13,17 @@ body {
   width: 148px;
   height: 50px;
 }
-.nav-menu ul {
-  display: flex;
+.nav-menu {
+  display: none;
   list-style-type: none;
   align-items: center; /* Align items vertically */
 }
 
-.nav-menu ul li {
+.nav-menu li {
   margin: 0 20px;
 }
 
-.nav-menu ul li .link {
+.nav-menu li .link {
   text-decoration: none;
   font-weight: 500;
   color: rgb(0, 0, 0);
@@ -102,8 +88,9 @@ body {
 } */
 
 .nav-button {
-  display: flex; /*Display button as a flex container */
+  /* display: flex; Display button as a flex container */
   gap: 20px;
+  display: none;
 }
 
 .login-btn a {

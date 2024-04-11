@@ -20,7 +20,7 @@ function Whatweoffer() {
         </div>
         <div className="offer-image-container">
           <div className="image-text">
-            <img src={first_image} alt="pic" className="offer-image" />
+            {/* <img src={first_image} alt="pic" className="offer-image" /> */}
             <div className="info-container">
               <p className="info-head">Boost Productivity and Quality</p>
               <p className="info">

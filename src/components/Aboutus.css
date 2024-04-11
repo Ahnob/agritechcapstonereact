@@ -1,9 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 .about-heading {
   margin: 0;
   padding: 90px 20px 30px 150px;
@@ -12,12 +6,16 @@
   font-size: 45px;
   font-weight: bold;
 }
+
+.container h1,
+.container p {
+  margin: 0;
+}
 .about-content {
   display: flex;
   flex-direction: row;
   gap: 50px;
   margin-bottom: 70px;
-  padding: 0 20px 15px 150px;
 }
 .about-image img {
   width: 472px;
@@ -38,7 +36,7 @@
   line-height: 1.4;
 }
 .about-para-two {
-  margin-bottom: 90px;
+  margin-bottom: 40px;
   font-size: 18px;
   font-weight: normal;
   padding-right: 70px;
@@ -60,4 +58,10 @@ hr {
   width: 1440px;
   border-color: rgb(46, 153, 0);
   margin-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .about-para {
+    flex-direction: column;
+  }
 }
