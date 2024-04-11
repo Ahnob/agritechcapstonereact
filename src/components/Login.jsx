@@ -33,7 +33,7 @@ function Login() {
           </div>
         </div>
         <div className="forgot-password">
-          <a className="forgot-password" href="#">
+          <a className="forgot-password login-a" href="#">
             Forgot password?
           </a>
         </div>
@@ -49,7 +49,7 @@ function Login() {
         </div>
         <div className="login-button-text">
           Do not have an account yet?{" "}
-          <a className="signup_link" href="signuppg.html">
+          <a className="signup_link login-a" href="signuppg.html">
             Sign up
           </a>
         </div>

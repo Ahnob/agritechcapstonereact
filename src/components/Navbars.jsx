@@ -1,5 +1,7 @@
 import logo from "../assets/logo.png";
 import Hamburger from "./Hamburger";
+import SideNav from "./side-nav/Sidenav";
+
 import "./Navbars.css";
 
 function Navbars() {
@@ -43,7 +45,8 @@ function Navbars() {
           <a href="../html/sign.html">Sign Up</a>
         </button>
       </div>
-      <Hamburger />
+      {/* <Hamburger /> */}
+      <SideNav />
     </nav>
   );
 }

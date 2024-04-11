@@ -1,0 +1,37 @@
+.sidenav-container {
+  margin-top: 20px;
+  background-color: #1b6606;
+  border: 1px solid black;
+  border-radius: 18.36px 0px 0 18.36px;
+  height: 100%;
+  width: 217.57px;
+}
+
+.sidenav-list {
+  list-style-type: none;
+  padding: 0;
+  border-top: 1px solid yellow;
+  display: flex;
+  padding: 20px 0 20px 25px;
+  gap: 10px;
+}
+
+.sidenav-list li {
+  margin-bottom: 10px;
+}
+
+.sidenav-anchor {
+  display: flex;
+  align-items: center;
+  color: rgb(220, 206, 81);
+  text-decoration: none;
+}
+
+.close-icon {
+  margin: 50px 0 90px 25px;
+}
+
+.hr-width {
+  width: 100%;
+  border-top: 1px yellow;
+}
