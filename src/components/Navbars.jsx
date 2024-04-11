@@ -1,10 +1,11 @@
+import { useState } from "react";
 import logo from "../assets/logo.png";
-import Hamburger from "./Hamburger";
+import hamburger_icon from "../assets/hamburger.svg";
 import SideNav from "./side-nav/Sidenav";
-
 import "./Navbars.css";
 
 function Navbars() {
+  const [isOpen, setIsOpen] = useState(false);
   return (
     <nav className="nav">
       <div className="nav-logo">
@@ -45,8 +46,10 @@ function Navbars() {
           <a href="../html/sign.html">Sign Up</a>
         </button>
       </div>
-      {/* <Hamburger /> */}
-      <SideNav />
+      <button onClick={() => setIsOpen(true)} className="hamburger">
+        <img src={hamburger_icon} alt="hamburger icon" />
+      </button>
+      {isOpen && <SideNav onClose={() => setIsOpen(false)} />}
     </nav>
   );
 }

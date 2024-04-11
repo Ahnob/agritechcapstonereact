@@ -8,10 +8,10 @@ import marketicon from "../../assets/market-icon.svg";
 import loginicon from "../../assets/signin-icon.svg";
 import signupicon from "../../assets/signup-icon.svg";
 
-function Sidenav() {
+function Sidenav(props) {
   return (
     <div className="sidenav-container">
-      <img src={closeicon} className="close-icon" alt="close-icon" />
+      <img onClick={props.onClose} src={closeicon} className="close-icon" alt="close-icon" />
       <ul className="side-nav">
         <li className="sidenav-list">
           <img src={homeicon} />

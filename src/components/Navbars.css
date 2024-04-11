@@ -1,10 +1,9 @@
 .nav {
-  top: 0;
   display: flex;
+  padding: 10px 17px;
   justify-content: space-between;
   align-items: center;
   background: rgb(255, 255, 255);
-  margin-bottom: 20px;
 }
 
 .nav-logo img {
@@ -86,4 +85,9 @@
 
 .login-btn:hover {
   background: rgba(255, 255, 255, 0.7);
+}
+
+.hamburger {
+  border: none;
+  background: white;
 }
