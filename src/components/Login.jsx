@@ -47,7 +47,7 @@ function Login() {
           <img className="logos" src={facebook_logo} alt="" />
           <img className="logos" src={google_logo} alt="" />
         </div>
-        <div className="button-text">
+        <div className="login-button-text">
           Do not have an account yet?{" "}
           <a className="signup_link" href="signuppg.html">
             Sign up

@@ -45,7 +45,7 @@ p {
 .input-box + .input-box {
   margin-bottom: -13px;
 }
-button {
+.farmer-button {
   padding: 8px;
   width: 305px;
   border-radius: 5px;
@@ -56,7 +56,7 @@ button {
   border: none;
   cursor: pointer;
 }
-button:hover {
+.farmer-button:hover {
   background-color: rgba(243, 193, 10, 0.549);
 }
 .size1 {
@@ -72,11 +72,7 @@ button:hover {
   align-items: center;
   justify-content: center;
 }
-a {
-  font-size: 9.5px;
-  text-decoration: none;
-  color: rgba(243, 193, 10, 0.913);
-}
+
 label {
   font-size: 12px;
 }

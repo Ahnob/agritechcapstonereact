@@ -58,7 +58,7 @@ h2 {
   color: rgb(241, 201, 40);
 }
 
-button {
+.login-button {
   padding: 8px;
   width: 300px;
   border-radius: 5px;
@@ -75,7 +75,7 @@ span {
   color: #000;
 }
 
-button:hover {
+.login-button:hover {
   background-color: rgba(229, 188, 8, 0.549);
   border: none;
 }
@@ -117,7 +117,7 @@ a {
   margin-left: 15px;
 }
 
-.button-text {
+.login-button-text {
   color: #000;
   font-size: 12px;
 }

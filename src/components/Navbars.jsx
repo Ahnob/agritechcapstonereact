@@ -43,7 +43,7 @@ function Navbars() {
           <a href="../html/sign.html">Sign Up</a>
         </button>
       </div>
-      {/* <Hamburger /> */}
+      <Hamburger />
     </nav>
   );
 }

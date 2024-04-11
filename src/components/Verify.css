@@ -34,7 +34,7 @@ label {
   margin: 0;
 }
 
-button {
+.verify-button {
   padding: 8px;
   width: 305px;
   height: 40px;
@@ -49,10 +49,8 @@ button {
   font-weight: 600;
   background-color: rgb(244, 201, 32);
 }
-.verify_button {
-  background-color: rgb(241, 201, 40);
-}
-button:hover {
+
+.verify-button:hover {
   background-color: rgba(243, 193, 10, 0.549);
 }
 .inputBox {
