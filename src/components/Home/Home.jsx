@@ -1,9 +1,9 @@
 import "./Home.css";
-import Navbars from "./Navbars";
-import AboutUs from "./AboutUs";
-import Footer from "./Footer";
-import Offer from "./Whatweoffer";
-import welcome_photo from "../assets/welcomebackgrounimage.png";
+import Navbars from ".././Navbar/Navbars";
+// import AboutUs from "../Aboutus/AboutUs";
+// import Footer from "../footer/Footer";
+// import Offer from "../footer/Footer";
+// import welcome_photo from "../assets/welcomebackgrounimage.png";
 
 function Home() {
   return (

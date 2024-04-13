@@ -1,7 +1,7 @@
 import { useState } from "react";
-import logo from "../assets/logo.png";
-import hamburger_icon from "../assets/hamburger.svg";
-import SideNav from "./side-nav/Sidenav";
+import logo from "../../assets/logo.png";
+import hamburger_icon from "../../assets/hamburger.svg";
+import SideNav from ".././side-nav/Sidenav";
 import "./Navbars.css";
 
 function Navbars() {

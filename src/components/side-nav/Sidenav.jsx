@@ -1,6 +1,5 @@
-import closeicon from "./close_hamburger.png";
+import closeicon from "../../assets/close-con.svg";
 import "./Sidenav.css";
-// import homeicon from "./home_icon.svg";
 import homeicon from "../../assets/home_icon.svg";
 import infoicon from "../../assets/Info-icon.svg";
 import phoneicon from "../../assets/Phone-icon.svg";
@@ -11,7 +10,12 @@ import signupicon from "../../assets/signup-icon.svg";
 function Sidenav(props) {
   return (
     <div className="sidenav-container">
-      <img onClick={props.onClose} src={closeicon} className="close-icon" alt="close-icon" />
+      <img
+        onClick={props.onClose}
+        src={closeicon}
+        className="close-icon"
+        alt="close-icon"
+      />
       <ul className="side-nav">
         <li className="sidenav-list">
           <img src={homeicon} />

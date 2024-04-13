@@ -1,8 +1,8 @@
 import "./Login.css";
-import email_icon from "../assets/email.png";
-import password_icon from "../assets/Lock.png";
-import facebook_logo from "../assets/facebook.png";
-import google_logo from "../assets/Google.png";
+import email_icon from "../../assets/email.png";
+import password_icon from "../../assets/Lock.png";
+import facebook_logo from "../../assets/facebook.png";
+import google_logo from "../../assets/Google.png";
 
 function Login() {
   return (

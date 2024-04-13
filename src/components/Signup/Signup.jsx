@@ -1,6 +1,6 @@
-import email_icon from "../assets/email.png";
-import password_icon from "../assets/Lock.png";
-import phone_icon from "../assets/Phone.png";
+import email_icon from "../../assets/email.png";
+import password_icon from "../../assets/Lock.png";
+import phone_icon from "../../assets/Phone-icon.svg";
 import "./Signup.css";
 
 function Signup() {
