@@ -1,19 +1,24 @@
 import "./Home.css";
-import Navbars from ".././Navbar/Navbars";
-// import AboutUs from "../Aboutus/AboutUs";
+import Navbars from "../Navbar/Navbars";
+import AboutUs from "../../components/Aboutus/AboutUs";
 // import Footer from "../footer/Footer";
 // import Offer from "../footer/Footer";
-// import welcome_photo from "../assets/welcomebackgrounimage.png";
+import welcome_photo from "../../assets/welcomebackgrounimage.png";
 
 function Home() {
   return (
     <>
       <Navbars />
+      <div className="section1">
+        <div className="text">
+        <p> Welcome to <span className="agritechlink"> AgritechLink</span></p>
+         <p> Your Gateway to Sustainable Agriculture and Market Place!
+        </p>
+        </div>
+      </div>
       {/* <div className="section1">
-        <img className="image" src={welcome_photo} alt="" />
-
         <div className="firstp">
-          <p className="welcome text" id="welcome">
+          <p className="welcome text">
             Welcome to
             <span className="agritechlink"> AgritechLink</span> Your Gateway to
             Sustainable Agriculture and Market Place!
@@ -33,14 +38,20 @@ function Home() {
             <button className="getstarted_button bolder">Get started</button>
           </div>
         </div>
-      </div>
+      </div> */}
       <div>
         <AboutUs />
-        <Offer />
-        <Footer />
-      </div> */}
+      </div>
     </>
   );
 }
+/* 
+      <div>
+        <Offer />
+        <Footer />
+      </div> */
+/* </>
+  );
+} */
 
 export default Home;

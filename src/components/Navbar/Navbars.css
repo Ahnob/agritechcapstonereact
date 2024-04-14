@@ -90,4 +90,5 @@
 .hamburger {
   border: none;
   background: white;
+  cursor: pointer;
 }
