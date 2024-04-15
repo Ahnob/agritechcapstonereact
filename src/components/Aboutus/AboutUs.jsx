@@ -1,15 +1,17 @@
 import about_image from "../../assets/about.png";
-
+import "./Aboutus.css";
 function AboutUs() {
   return (
-    <>
+    <div className="about-container">
       <p className="about-heading">About Us</p>
       <div className="about-content">
         <div className="about-image">
-          {/* <img src={about_image} alt="pic" /> */}
+          <img className="secondpic-aboutus" src={about_image} alt="pic" />
         </div>
         <div className="about-para">
-          <h3>Unlocking Sustainable Agriculture with Agritecture</h3>
+          <h3 className="about-header">
+            Unlocking Sustainable Agriculture with Agritecture
+          </h3>
           <p className="about-para-one">
             At Agritecture, we are pioneering the future of farming with
             innovative solutions that empower farmers and protect our planet.
@@ -27,7 +29,7 @@ function AboutUs() {
           <button className="learn-more">Learn More</button>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
