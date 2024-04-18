@@ -1,7 +1,7 @@
 import "./Home.css";
 import Navbars from "../Navbar/Navbars";
 import AboutUs from "../../components/Aboutus/AboutUs";
-// import Footer from "../footer/Footer";
+import Footer from "../footer/Footer";
 import Offer from ".././Whatweoffer/Whatweoffer";
 
 function Home() {
@@ -35,16 +35,18 @@ function Home() {
       <div>
         <AboutUs />
       </div>
-      <div>
+      {/* <div>
         <Offer />
-      </div>
+      </div> */}
+      <div>
+        <Footer />
+      </div>{" "}
+      */
     </>
   );
 }
 /* 
-      <div>
-        <Footer />
-      </div> */
+      
 /* </>
   );
 } */
