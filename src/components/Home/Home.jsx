@@ -32,16 +32,9 @@ function Home() {
           <button className="getstarted_button bolder">Get started</button>
         </div>
       </div>
-      <div>
-        <AboutUs />
-      </div>
-      {/* <div>
-        <Offer />
-      </div> */}
-      <div>
-        <Footer />
-      </div>{" "}
-      */
+      <AboutUs />
+      <Offer />
+      <Footer />
     </>
   );
 }

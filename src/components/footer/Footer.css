@@ -1,34 +1,36 @@
 .footer {
   background-color: rgb(25, 84, 0);
-  width: 1440px;
-  height: 334px;
-  padding: 60px 20px 30px 150px;
+  padding: 28px 12px;
 }
 .footer-content {
   display: flex;
   flex-direction: row;
-  gap: 120px;
+  gap: 15px;
 }
 .logo-image {
   background-color: white;
+  width: 120px;
 }
+
 .logo-image-text {
   color: white;
-  font: 18px;
+  font-size: 10.7px;
   font-weight: normal;
-  margin-top: 15px;
+  margin-top: 5px;
   line-height: 1.5;
 }
+
 .list h5 {
-  font-size: 24px;
-  font-weight: 500;
+  font-size: 14px;
+  font-weight: 600;
   color: white;
-  margin-bottom: 30px;
+  line-height: 20px;
+  margin-bottom: 10px;
 }
 .the-list li {
-  font-size: 18px;
-  font-weight: normal;
+  font-size: 10.87px;
   list-style: none;
   color: white;
-  line-height: 1.5;
+  line-height: 25px;
+  font-weight: 400;
 }
