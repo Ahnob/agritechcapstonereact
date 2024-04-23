@@ -2,11 +2,12 @@
   background-color: rgb(25, 84, 0);
   padding: 28px 12px;
 }
+
 .footer-content {
   display: flex;
-  flex-direction: row;
-  gap: 15px;
+  gap: 30px;
 }
+
 .logo-image {
   background-color: white;
   width: 120px;
@@ -27,10 +28,21 @@
   line-height: 20px;
   margin-bottom: 10px;
 }
+
+.none {
+  display: none;
+}
+
 .the-list li {
   font-size: 10.87px;
   list-style: none;
   color: white;
   line-height: 25px;
   font-weight: 400;
+}
+
+@media only screen and (min-device-width: 768px) {
+  .none {
+    display: block;
+  }
 }
