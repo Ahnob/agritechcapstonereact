@@ -92,3 +92,15 @@
   background: white;
   cursor: pointer;
 }
+
+@media only screen and (min-width: 768px) {
+  .nav-button,
+  .nav-menu {
+    display: block;
+    display: flex;
+  }
+
+  .hamburger {
+    display: none;
+  }
+}
