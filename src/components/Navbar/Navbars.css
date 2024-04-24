@@ -68,7 +68,6 @@
 }
 
 .nav-button {
-  /* display: flex; Display button as a flex container */
   gap: 20px;
   display: none;
 }

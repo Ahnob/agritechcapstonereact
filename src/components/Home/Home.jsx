@@ -2,6 +2,7 @@ import "./Home.css";
 import Navbars from "../Navbar/Navbars";
 import AboutUs from "../../components/Aboutus/AboutUs";
 import Footer from "../footer/Footer";
+import Settings from "../Dashboard/Settings/Settings";
 import Offer from ".././Whatweoffer/Whatweoffer";
 
 function Home() {
@@ -11,7 +12,6 @@ function Home() {
       <div className="section1">
         <div className="text">
           <p>
-            {" "}
             Welcome to <span className="agritechlink"> AgritechLink</span>
           </p>
           <p> Your Gateway to Sustainable Agriculture and Market Place!</p>
@@ -34,6 +34,7 @@ function Home() {
       </div>
       <AboutUs />
       <Offer />
+      <Settings />
       <Footer />
     </>
   );
