@@ -34,7 +34,7 @@ function Home() {
       </div>
       <AboutUs />
       <Offer />
-      <Settings />
+      {/* <Settings /> */}
       <Footer />
     </>
   );

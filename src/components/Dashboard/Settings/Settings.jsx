@@ -37,7 +37,7 @@ function Settings() {
           <img className="second-section" src={dropdown} />
         </div>
         <div className="third-section">
-          <img src={logo} />
+          {/* <img src={logo} /> */}
           <ul className="sidebar">
             <li className="sidebar-list">
               <img className="setting-icon" src={homeicon} />
@@ -88,72 +88,69 @@ function Settings() {
               </a>
             </li>
           </ul>
-        </div>
-
-        <div>
-          <h4>Settings</h4>
-          <p> Manage your account settings</p>
-        </div>
-        <div className="second-container">
-          <div>
+          <div className="second-container">
+            <h4>Settings</h4>
+            <p> Manage your account settings</p>
             <div>
-              <img src={infoicon} />
-              <p>Personal Information</p>
-            </div>
-            <div>
-              <img src={subscriptionicon} />
-              <p>Subscription</p>
-            </div>
-            <div>
-              <img src={mystore} />
-              <p>My Store</p>
-            </div>
-            <div>
-              <img src={securityicon} />
-              <p>Security</p>
-            </div>
-          </div>
-          <div>
-            <h3>General information</h3>
-            <hr />
-          </div>
-          <div>
-            <div className="profile-section">
-              <div className="profile">
-                <h3>Profile Picture</h3>
-                <img src={profileimage} />
+              <div className="padding-icons">
+                <img src={infoicon} />
+                <p>Personal Information</p>
               </div>
-              <div className="settings-button">
-                <button>Save</button>
-                <button>Delete</button>
+              <div className="padding-icons">
+                <img src={subscriptionicon} />
+                <p>Subscription</p>
+              </div>
+              <div className="padding-icons">
+                <img src={mystore} />
+                <p>My Store</p>
+              </div>
+              <div className="padding-icons">
+                <img className="color" src={securityicon} />
+                <p>Security</p>
               </div>
             </div>
-
-            <div className="input-field">
-              <label className="label" htmlFor="phoneNumber">
-                Phone Number
-              </label>
-              <input type="text" placeholder="First Name"></input>
-              <label className="label" htmlFor="phoneNumber">
-                Email Address
-              </label>
-              <input type="text" placeholder="Email Address" />
-            </div>
-            <div className="input-field">
-              <label className="label" htmlFor="phoneNumber">
-                Phone Number
-              </label>
-              <input type="text" placeholder="Phone Number" />
-              <label className="label" htmlFor="address">
-                Address
-              </label>
-              <input type="text" placeholder="Address" />
+            <div>
+              <h3>General information</h3>
+              <hr className="hr" />
             </div>
             <div>
-              <label className="label" htmlFor="city">
-                City
-              </label>
-              <input type="text" placeholder="City" />
+              <div className="profile-section">
+                <div className="profile">
+                  <h3>Profile Picture</h3>
+                  <img src={profileimage} />
+                </div>
+                <div className="settings-button">
+                  <button>Save</button>
+                  <button>Delete</button>
+                </div>
+              </div>
+
+              <div className="input-field">
+                <label className="label" htmlFor="phoneNumber">
+                  Phone Number
+                </label>
+                <input type="text" placeholder="First Name"></input>
+                <label className="label" htmlFor="phoneNumber">
+                  Email Address
+                </label>
+                <input type="text" placeholder="Email Address" />
+              </div>
+              <div className="input-field">
+                <label className="label" htmlFor="phoneNumber">
+                  Phone Number
+                </label>
+                <input type="text" placeholder="Phone Number" />
+                <label className="label" htmlFor="address">
+                  Address
+                </label>
+                <input type="text" placeholder="Address" />
+              </div>
+              <div>
+                <label className="label" htmlFor="city">
+                  City
+                </label>
+                <input type="text" placeholder="City" />
+              </div>
             </div>
           </div>
         </div>

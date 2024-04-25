@@ -1,8 +1,6 @@
 .sidebar {
   height: 100%;
   width: 250px;
-  top: 0;
-  left: 0;
   background-color: white;
   padding-top: 20px;
 }
@@ -67,12 +65,17 @@ input[type="text"] {
   background-color: white;
 }
 
-.second-container{
-    background-color: rgb(240, 247, 240);
+.second-container {
+  background-color: rgb(240, 247, 240);
+  margin-bottom: 20px;
 }
 
 .second-section {
   margin-right: 15px;
+}
+
+.third-container {
+  display: flex;
 }
 
 .third-section {
@@ -83,19 +86,38 @@ input[type="text"] {
   display: block;
 }
 
-.profile-section{
-    display: flex;
-    justify-content: space-between;
+.hr {
+  width: 100%;
 }
 
-.profile{
-    display: flex;
-    gap: 10px;
+.profile-section {
+  display: flex;
+  justify-content: space-between;
 }
+
+.profile {
+  display: flex;
+  gap: 10px;
+}
+
 .settings-container {
   background-color: rgb(220, 243, 220);
 }
 
-.settings-button{
+.settings-button {
+  gap: 20px;
+}
+
+.padding-icons {
+  padding: 10px 10px;
+  display: flex;
+  width: 100%;
+  gap: 10px;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .third-section {
+    display: flex;
     gap: 20px;
+  }
 }
