@@ -89,24 +89,24 @@ function Settings() {
             </li>
           </ul>
           <div className="second-container">
-            <h4>Settings</h4>
+            <h4 className="setting-header">Settings</h4>
             <p> Manage your account settings</p>
             <div>
               <div className="padding-icons">
                 <img src={infoicon} />
                 <p>Personal Information</p>
               </div>
-              <div className="padding-icons">
+              <div className="padding-icons icons">
                 <img src={subscriptionicon} />
                 <p>Subscription</p>
               </div>
               <div className="padding-icons">
                 <img src={mystore} />
-                <p>My Store</p>
+                <span>My Store</span>
               </div>
               <div className="padding-icons">
                 <img className="color" src={securityicon} />
-                <p>Security</p>
+                <span>Security</span>
               </div>
             </div>
             <div>
@@ -120,36 +120,38 @@ function Settings() {
                   <img src={profileimage} />
                 </div>
                 <div className="settings-button">
-                  <button>Save</button>
-                  <button>Delete</button>
+                  <button className="save-button">Save</button>
+                  <button className="delete-button">Delete</button>
                 </div>
               </div>
 
-              <div className="input-field">
-                <label className="label" htmlFor="phoneNumber">
-                  Phone Number
-                </label>
-                <input type="text" placeholder="First Name"></input>
-                <label className="label" htmlFor="phoneNumber">
-                  Email Address
-                </label>
-                <input type="text" placeholder="Email Address" />
-              </div>
-              <div className="input-field">
-                <label className="label" htmlFor="phoneNumber">
-                  Phone Number
-                </label>
-                <input type="text" placeholder="Phone Number" />
-                <label className="label" htmlFor="address">
-                  Address
-                </label>
-                <input type="text" placeholder="Address" />
-              </div>
-              <div>
-                <label className="label" htmlFor="city">
-                  City
-                </label>
-                <input type="text" placeholder="City" />
+              <div className="input-field-container">
+                <div className="input-field">
+                  <label className="label" htmlFor="phoneNumber">
+                    Phone Number
+                  </label>
+                  <input type="text" placeholder="Afrinet Farms"></input>
+                  <label className="label" htmlFor="Email Address">
+                    Email Address
+                  </label>
+                  <input type="text" placeholder="xyz@gmail.com" />
+                </div>
+                <div className="input-field">
+                  <label className="label" htmlFor="phoneNumber">
+                    Phone Number
+                  </label>
+                  <input type="text" placeholder="1228" />
+                  <label className="label" htmlFor="address">
+                    Address
+                  </label>
+                  <input type="text" placeholder="xyz" />
+                </div>
+                <div>
+                  <label className="label" htmlFor="city">
+                    City
+                  </label>
+                  <input type="text" placeholder="City" />
+                </div>
               </div>
             </div>
           </div>
