@@ -29,8 +29,7 @@
   fill: black;
 }
 .sidebar-list:hover {
-  background-color: rgb(33, 112, 33);
-  /* padding: 10px 20px 10px 5px; */
+  background-color: #2e9900;
   border-radius: 7px;
 }
 .search-container {
@@ -39,46 +38,51 @@
 }
 
 input[type="text"] {
-  padding: 10px 10px 10px 30px;
+  padding: 13px;
   border: 1px solid #ccc;
-  border-radius: 7px;
+  border-radius: 25x;
   cursor: pointer;
-  margin-bottom: 20px;
-  width: 180px; /* Adjust as needed */
+  width: 250px;
 }
 
+.general-information {
+  flex: 1;
+}
 .save-button {
-  padding: 8px 15px;
+  padding: 10px 30px;
   border-radius: 5px;
   background-color: rgb(241, 201, 40);
   color: rgb(0, 0, 0);
   font-weight: 900;
   border: none;
   cursor: pointer;
-  margin-top: 10px;
+  margin: 10px 0;
 }
 
 .delete-button {
-  padding: 5px 12px;
+  padding: 10px 30px;
   border-radius: 5px;
-  background-color: rgb(241, 201, 40);
   color: rgb(0, 0, 0);
   font-weight: 900;
-  border: none;
+  border: 1px solid rgb(241, 201, 40);
   cursor: pointer;
-  margin-top: 10px;
+  margin: 10px 0;
 }
 
 .search-icon {
   position: absolute;
   width: 15px; /* Adjust as needed */
   height: auto;
-  top: 25px;
+  top: 11px;
   margin-left: 12px;
 }
 
 .bottom {
   margin-top: auto;
+}
+
+.top-container {
+  font-weight: 700;
 }
 
 .top-section {
@@ -88,14 +92,21 @@ input[type="text"] {
 }
 
 .second-container {
-  background-color: rgb(240, 247, 240);
+  background: #eaf5e6;
   margin-bottom: 20px;
   width: 100%;
   padding-left: 20px;
 }
 
+.second-part-setting {
+  background-color: rgb(240, 247, 240);
+  margin-top: 20px;
+  width: 100%;
+  padding-left: 20px;
+}
+
 .setting-header {
-  margin: 20px 0;
+  margin: 40px 0;
 }
 
 .second-section {
@@ -106,16 +117,39 @@ input[type="text"] {
   display: flex;
 }
 
+.information {
+  display: flex;
+  gap: 20px;
+  background-color: rgb(241, 245, 241);
+  padding: 20px;
+}
+
+.subscription {
+  background-color: rgb(241, 245, 241);
+  padding-left: 220px;
+}
+.sections {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 12px auto 0 auto;
+  max-width: 1032px;
+}
+
 .third-section {
-  display: none;
+  display: flex;
+  gap: 20px;
 }
 
 .label {
   display: block;
+  margin-top: 20px;
+  font-weight: bolder;
 }
 
-.hr {
-  width: 100%;
+.border-bottom {
+  border-bottom: 1px inset grey;
+  padding-bottom: 5px;
 }
 
 .profile-section {
@@ -126,6 +160,11 @@ input[type="text"] {
 .profile {
   display: flex;
   gap: 10px;
+  align-items: center;
+}
+
+.profile-heading {
+  min-width: max-content;
 }
 
 .settings-container {
@@ -139,23 +178,44 @@ input[type="text"] {
 }
 
 .padding-icons {
-  padding: 10px 10px;
   display: flex;
-  width: 100%;
-  gap: 10px;
-  padding: 5px;
+  min-width: max-content;
+  gap: 20px;
+  background-color: white;
+  align-items: center;
+  padding: 3px 45px 3px 5px;
+  font-size: 14px;
 }
 
-.icons {
-  padding: 5px 12px;
-  background-color: rgb(227, 227, 224);
-  width: max-content;
-  border-radius: 7px;
+.padding-icons:hover {
+  background: #2e9900;
+  cursor: pointer;
 }
 
+.input-padding {
+  margin: 0 0 70px 0;
+}
+
+.icon {
+  width: 25px;
+  height: 25px;
+  color: black;
+}
+
+.personal-information {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.icons:hover {
+  cursor: pointer;
+  background-color: #2e9900;
+}
 .input-field-container {
   display: flex;
-  gap: 30px;
+  gap: 40px;
+  margin-bottom: 40px;
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {

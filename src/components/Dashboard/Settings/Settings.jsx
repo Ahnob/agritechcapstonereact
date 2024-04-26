@@ -21,7 +21,7 @@ function Settings() {
   return (
     <>
       <div className="settings-container">
-        <div className="top-section">
+        {/* <div className="top-section">
           <div className="search-container">
             <img src={searchicon} alt="search" className="search-icon" />
             <input type="text" placeholder="Search here..." />
@@ -35,10 +35,10 @@ function Settings() {
             <h3>Moses</h3>
           </div>
           <img className="second-section" src={dropdown} />
-        </div>
+        </div> */}
         <div className="third-section">
           {/* <img src={logo} /> */}
-          <ul className="sidebar">
+          {/* <ul className="sidebar">
             <li className="sidebar-list">
               <img className="setting-icon" src={homeicon} />
               <a href="#welcome" className="sidebar-anchor">
@@ -87,70 +87,84 @@ function Settings() {
                 Sign Out
               </a>
             </li>
-          </ul>
+          </ul> */}
           <div className="second-container">
-            <h4 className="setting-header">Settings</h4>
-            <p> Manage your account settings</p>
-            <div>
-              <div className="padding-icons">
-                <img src={infoicon} />
-                <p>Personal Information</p>
-              </div>
-              <div className="padding-icons icons">
-                <img src={subscriptionicon} />
-                <p>Subscription</p>
-              </div>
-              <div className="padding-icons">
-                <img src={mystore} />
-                <span>My Store</span>
-              </div>
-              <div className="padding-icons">
-                <img className="color" src={securityicon} />
-                <span>Security</span>
-              </div>
+            <div className="top-container">
+              <h3 className="setting-header">Settings</h3>
+              <h3> Manage your account settings</h3>
             </div>
-            <div>
-              <h3>General information</h3>
-              <hr className="hr" />
-            </div>
-            <div>
-              <div className="profile-section">
-                <div className="profile">
-                  <h3>Profile Picture</h3>
-                  <img src={profileimage} />
+            <div className="sections">
+              <div className="information">
+                <div className="personal-information">
+                  <div className="padding-icons">
+                    <img className="icon" src={infoicon} />
+                    <p>Personal Info</p>
+                  </div>
+                  <div className="padding-icons">
+                    <img className="icon" src={subscriptionicon} />
+                    <p>Subscription</p>
+                  </div>
+                  <div className="padding-icons">
+                    <img className="icon" src={mystore} />
+                    <span>My Store</span>
+                  </div>
+                  <div className="padding-icons">
+                    <img className="icon" src={securityicon} />
+                    <span>Security</span>
+                  </div>
                 </div>
-                <div className="settings-button">
-                  <button className="save-button">Save</button>
-                  <button className="delete-button">Delete</button>
-                </div>
-              </div>
 
-              <div className="input-field-container">
-                <div className="input-field">
-                  <label className="label" htmlFor="phoneNumber">
-                    Phone Number
-                  </label>
-                  <input type="text" placeholder="Afrinet Farms"></input>
-                  <label className="label" htmlFor="Email Address">
-                    Email Address
-                  </label>
-                  <input type="text" placeholder="xyz@gmail.com" />
+                <div className="general-information">
+                  <h3 className="border-bottom">General information</h3>
+                  <div>
+                    <div className="profile-section">
+                      <div className="profile">
+                        <h3 className="profile-heading">Profile Picture</h3>
+                        <img src={profileimage} />
+                      </div>
+                      <div className="settings-button">
+                        <button className="save-button">Save</button>
+                        <button className="delete-button">Delete</button>
+                      </div>
+                    </div>
+                    <div className="input-field-container">
+                      <div className="input-field">
+                        <label className="label" htmlFor="phoneNumber">
+                          Farm Name
+                        </label>
+                        <input type="text" placeholder="Afrinet Farms"></input>
+                        <label className="label" htmlFor="Phone Number">
+                          Phone Number
+                        </label>
+                        <input type="text" placeholder="xyz@gmail.com" />
+                        <label className="label" htmlFor="city">
+                          City
+                        </label>
+                        <input type="text" placeholder="" />
+                      </div>
+                      <div className="input-field input-padding">
+                        <label className="label" htmlFor="Email address">
+                          Email Address
+                        </label>
+                        <input type="text" placeholder="1228" />
+                        <label className="label" htmlFor="address">
+                          Address
+                        </label>
+                        <input type="text" placeholder="xyz" />
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <div className="input-field">
-                  <label className="label" htmlFor="phoneNumber">
-                    Phone Number
-                  </label>
-                  <input type="text" placeholder="1228" />
-                  <label className="label" htmlFor="address">
-                    Address
-                  </label>
-                  <input type="text" placeholder="xyz" />
-                </div>
+              </div>
+              <div className="subscription">
+                <h3 className="border-bottom">Subscription</h3>
+                <h3>Credit Card</h3>
+                <p>Manage your invoices</p>
+                <button>Update</button>
                 <div>
-                  <label className="label" htmlFor="city">
-                    City
-                  </label>
-                  <input type="text" placeholder="City" />
+                  <h3>Invoices</h3>
+                  <p>Manage your invoices</p>
+                  <button>Update</button>
                 </div>
               </div>
             </div>
