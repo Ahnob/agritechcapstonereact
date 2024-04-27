@@ -19,6 +19,13 @@
   cursor: pointer;
 }
 
+.subscription-header {
+  font-size: 14px;
+}
+
+.manage-invoice {
+  font-size: 13px;
+}
 .sidebar-anchor {
   color: #0d0c0c;
   text-decoration: none;
@@ -40,16 +47,25 @@
 input[type="text"] {
   padding: 13px;
   border: 1px solid #ccc;
-  border-radius: 25x;
+  border-radius: 7px;
   cursor: pointer;
   width: 250px;
 }
 
+.payment-header {
+  background-color: rgb(241, 245, 241);
+  padding-left: 220px;
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
 .general-information {
   flex: 1;
 }
 .save-button {
-  padding: 10px 30px;
+  padding: 7px 25px;
   border-radius: 5px;
   background-color: rgb(241, 201, 40);
   color: rgb(0, 0, 0);
@@ -60,7 +76,7 @@ input[type="text"] {
 }
 
 .delete-button {
-  padding: 10px 30px;
+  padding: 7px 25px;
   border-radius: 5px;
   color: rgb(0, 0, 0);
   font-weight: 900;
@@ -127,7 +143,26 @@ input[type="text"] {
 .subscription {
   background-color: rgb(241, 245, 241);
   padding-left: 220px;
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+  padding-bottom: 30px;
 }
+
+.update-btn {
+  padding: 7px 25px;
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+  font-weight: 900;
+  border: 1px solid rgb(241, 201, 40);
+  cursor: pointer;
+  margin: 30px 0;
+}
+
+.manage-invoice {
+  margin-top: 10px;
+}
+
 .sections {
   display: flex;
   flex-direction: column;
@@ -143,13 +178,16 @@ input[type="text"] {
 
 .label {
   display: block;
-  margin-top: 20px;
+  margin: 20px 0 10px 0;
   font-weight: bolder;
+  font-size: 14px;
 }
 
 .border-bottom {
   border-bottom: 1px inset grey;
-  padding-bottom: 5px;
+  padding: 15px 0 5px 0;
+  font-size: 19px;
+  font-weight: 600;
 }
 
 .profile-section {
@@ -165,6 +203,7 @@ input[type="text"] {
 
 .profile-heading {
   min-width: max-content;
+  font-size: 15px;
 }
 
 .settings-container {
@@ -185,6 +224,7 @@ input[type="text"] {
   align-items: center;
   padding: 3px 45px 3px 5px;
   font-size: 14px;
+  margin-bottom: 12px;
 }
 
 .padding-icons:hover {

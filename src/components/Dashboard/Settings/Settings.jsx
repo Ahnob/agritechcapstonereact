@@ -98,7 +98,7 @@ function Settings() {
                 <div className="personal-information">
                   <div className="padding-icons">
                     <img className="icon" src={infoicon} />
-                    <p>Personal Info</p>
+                    <p className="personal-info-p">Personal Info</p>
                   </div>
                   <div className="padding-icons">
                     <img className="icon" src={subscriptionicon} />
@@ -158,13 +158,37 @@ function Settings() {
               </div>
               <div className="subscription">
                 <h3 className="border-bottom">Subscription</h3>
-                <h3>Credit Card</h3>
-                <p>Manage your invoices</p>
-                <button>Update</button>
                 <div>
-                  <h3>Invoices</h3>
-                  <p>Manage your invoices</p>
-                  <button>Update</button>
+                  <h3 className="subscription-header">Credit Card</h3>
+                  <p className="manage-invoice">Manage your invoices</p>
+                  <button className="update-btn">Update</button>
+                </div>
+                <div>
+                  <h3 className="subscription-header">Invoices</h3>
+                  <p className="manage-invoice"> Manage your invoices</p>
+                  <button className="update-btn">Update</button>
+                </div>
+              </div>
+              <div className="payment-header">
+                <h3 className="border-bottom">Payment Options</h3>
+                <div>
+                  <h3 className="subscription-header">Credit Card</h3>
+                  <p className="manage-invoice">Manage your invoices</p>
+                  <button className="update-btn">Update</button>
+                </div>
+                <div>
+                  <h3 className="subscription-header">Invoice</h3>
+                  <p className="manage-invoice">Manage your invoices</p>
+                  <button className="update-btn">Update</button>
+                </div>
+              </div>
+              <div className="payment-header">
+                <h3 className="border-bottom">Security</h3>
+                <p>Password Information</p>
+                <div>
+                  <h3 className="subscription-header">Invoice</h3>
+                  <p className="manage-invoice">Manage your invoices</p>
+                  <button className="update-btn">Update</button>
                 </div>
               </div>
             </div>
