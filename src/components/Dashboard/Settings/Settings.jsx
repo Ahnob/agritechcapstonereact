@@ -16,6 +16,7 @@ import infoicon from "../../../assets/Info-icon.svg";
 import subscriptionicon from "../../../assets/Subscription-icon.svg";
 import mystore from "../../../assets/Mystore-icon.svg";
 import securityicon from "../../../assets/Sercurity-icon.svg";
+import ToggleButton from "../../Toggle/Togglebutton";
 
 function Settings() {
   return (
@@ -106,11 +107,11 @@ function Settings() {
                   </div>
                   <div className="padding-icons">
                     <img className="icon" src={mystore} />
-                    <span>My Store</span>
+                    <p>My Store</p>
                   </div>
                   <div className="padding-icons">
                     <img className="icon" src={securityicon} />
-                    <span>Security</span>
+                    <p>Security</p>
                   </div>
                 </div>
 
@@ -120,7 +121,7 @@ function Settings() {
                     <div className="profile-section">
                       <div className="profile">
                         <h3 className="profile-heading">Profile Picture</h3>
-                        <img src={profileimage} />
+                        <img src={profileimage} className="profile-image" />
                       </div>
                       <div className="settings-button">
                         <button className="save-button">Save</button>
@@ -184,11 +185,32 @@ function Settings() {
               </div>
               <div className="payment-header">
                 <h3 className="border-bottom">Security</h3>
-                <p>Password Information</p>
-                <div>
-                  <h3 className="subscription-header">Invoice</h3>
-                  <p className="manage-invoice">Manage your invoices</p>
-                  <button className="update-btn">Update</button>
+                <p className="underline">Password Information</p>
+                <div className="email-setup">
+                  <div>
+                    <h3 className="subscription-header">Email Setup</h3>
+                    <p className="section-paragraph">
+                      lorem Ipsum, God is a good God
+                    </p>
+                  </div>
+                  <ToggleButton />
+                </div>
+                <div className="sms-setup">
+                  <div>
+                    <h3 className="subscription-header">SMS Setup</h3>
+                    <p className="section-paragraph">
+                      lorem Ipsum, God is a good God
+                    </p>
+                  </div>
+                  <ToggleButton />
+                </div>
+                <p className="underline">Password Security</p>
+                <div className="password-container">
+                  <div className="change-password">
+                    <h3 className="subscription-header">Password Change</h3>
+                    <p className="section-paragraph">lorem Ipsum</p>
+                  </div>
+                  <button className="password-btn">Change Password</button>
                 </div>
               </div>
             </div>

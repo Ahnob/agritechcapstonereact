@@ -1,0 +1,17 @@
+.radio-button-container label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.radio-button-container input[type="radio"] {
+  display: none;
+}
+
+.radio-button-container label {
+  cursor: pointer;
+  display: inline-block;
+  padding: 5px 10px;
+  border: 1px solid #000;
+  border-radius: 50%;
+}
+
