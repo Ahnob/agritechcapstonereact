@@ -26,6 +26,7 @@
 .manage-invoice {
   font-size: 13px;
 }
+
 .sidebar-anchor {
   color: #0d0c0c;
   text-decoration: none;
@@ -35,10 +36,12 @@
   color: black;
   fill: black;
 }
+
 .sidebar-list:hover {
   background-color: #2e9900;
   border-radius: 7px;
 }
+
 .search-container {
   background: white;
   position: relative;
@@ -64,6 +67,7 @@ input[type="text"] {
 .general-information {
   flex: 1;
 }
+
 .save-button {
   padding: 7px 25px;
   border-radius: 5px;

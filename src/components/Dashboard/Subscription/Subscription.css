@@ -1,17 +1,47 @@
-.radio-button-container label {
-  display: block;
-  margin-bottom: 10px;
+input[type="radio"] {
+  display: none; /* Hide the default radio buttons */
 }
 
-.radio-button-container input[type="radio"] {
-  display: none;
-}
-
-.radio-button-container label {
-  cursor: pointer;
+/* Style the custom radio button */
+.checkmark {
   display: inline-block;
-  padding: 5px 10px;
+  width: 20px;
+  height: 20px;
   border: 1px solid #000;
-  border-radius: 50%;
+  border-radius: 50%; /* Make the checkbox round */
+  position: relative;
 }
 
+/* Style the checkmark icon */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  left: 6px;
+  top: 2px;
+  width: 5px;
+  height: 10px;
+  border: solid #000;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+  display: none; /* Hide the checkmark initially */
+}
+
+.subscribe-container {
+  background: white;
+}
+
+.flex-card {
+  display: flex;
+  max-width: 798px;
+}
+
+.second-container {
+  background: #eaf5e6;
+  margin-bottom: 20px;
+  width: 100%;
+  padding-left: 20px;
+}
+/* Change the appearance of the checkmark when the radio button is checked */
+input[type="radio"]:checked + .checkmark:after {
+  display: block; /* Show the checkmark when the radio button is checked */
+}
