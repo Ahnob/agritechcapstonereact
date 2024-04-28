@@ -1,6 +1,7 @@
 import "./Subscription.css";
 import { useState } from "react";
 import firstimage from "../../../assets/pikaso_texttoimage_A-3d-model-of-a-triangular-vertical-farm (1) 2.svg";
+import secondimage from "../../../assets/pikaso_texttoimage_A-3d-model-to-demonstrate-precision-planting 2.svg";
 
 function Subscription() {
   const [selectedOption, setSelectedOption] = useState(null);
@@ -20,16 +21,16 @@ function Subscription() {
           <div className="subscribe-container">
             <div className="first-card">
               <img src={firstimage} alt="First" />
-              <h3>Agriculture Farming Model </h3>
+              <h3 className="cards-heading">Agriculture Farming Model </h3>
             </div>
             <div>
               <h3>
                 $20
-                <span> per user/month</span>
+                <span className="grey-span"> per user/month</span>
               </h3>
             </div>
             <div className="subscribe-card">
-              <div>
+              <div className="radio-button">
                 <label>
                   <input
                     type="radio"
@@ -43,7 +44,7 @@ function Subscription() {
                   livestock efficiently.
                 </label>
               </div>
-              <div>
+              <div className="radio-button">
                 <label>
                   <input
                     type="radio"
@@ -56,7 +57,7 @@ function Subscription() {
                 </label>
               </div>
 
-              <div>
+              <div className="radio-button">
                 <label>
                   <input
                     type="radio"
@@ -73,17 +74,17 @@ function Subscription() {
           </div>
           <div className="subscribe-container">
             <div className="first-card">
-              <img src={firstimage} alt="First" />
-              <h3>Agriculture Farming Model </h3>
+              <img src={secondimage} alt="First" />
+              <h3 className="cards-heading">Agriculture Farming Model </h3>
             </div>
             <div>
               <h3>
                 $20
-                <span> per user/month</span>
+                <span className="grey-span"> per user/month</span>
               </h3>
             </div>
             <div className="subscribe-card">
-              <div>
+              <div className="radio-button">
                 <label>
                   <input
                     type="radio"
@@ -97,7 +98,7 @@ function Subscription() {
                   livestock efficiently.
                 </label>
               </div>
-              <div>
+              <div className="radio-button">
                 <label>
                   <input
                     type="radio"
@@ -110,7 +111,7 @@ function Subscription() {
                 </label>
               </div>
 
-              <div>
+              <div className="radio-button">
                 <label>
                   <input
                     type="radio"
