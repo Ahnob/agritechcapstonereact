@@ -64,6 +64,11 @@
   width: 100%;
 }
 
+.about-image {
+  max-width: 100%;
+  height: auto;
+}
+
 hr {
   width: 1440px;
   border-color: rgb(46, 153, 0);
@@ -75,8 +80,32 @@ hr {
   flex-direction: column;
 } */
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .about-para {
     flex-direction: column;
+  }
+
+  .about-content {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+  }
+
+  .about-image {
+    max-width: 100%;
+    height: auto;
+    width: 303px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .about-para {
+    flex-direction: column;
+  }
+
+  .about-content {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
   }
 }

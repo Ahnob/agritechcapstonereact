@@ -24,7 +24,7 @@ function Signup() {
           <div className="input">
             <img src={email_icon} alt="" />
             <input
-              type="text"
+              type="email"
               placeholder="Email Address"
               maxLength="11"
               required

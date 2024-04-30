@@ -1,14 +1,13 @@
 input[type="radio"] {
-  display: none; /* Hide the default radio buttons */
+  display: none;
 }
 
-/* Style the custom radio button */
 .checkmark {
   display: inline-block;
   width: 20px;
   height: 20px;
   border: 1px solid #000;
-  border-radius: 50%; /* Make the checkbox round */
+  border-radius: 50%;
   position: relative;
 }
 
@@ -25,28 +24,31 @@ input[type="radio"] {
   display: none;
 }
 
+input[type="radio"]:checked + .checkmark:after {
+  display: block;
+}
+
 .subscribe-btn {
-  padding: 12px 80px 12px 80px;
+  padding: 12px 80px;
   border-radius: 8px;
   background: #f1c928;
   color: rgb(0, 0, 0);
   font-weight: 900;
   border: none;
   cursor: pointer;
-  margin: 10px 0 10px 70px;
+  margin: 10px 50px;
   font-size: 19px;
 }
 
 .subscribe-container {
   background: white;
-  padding: 30px 10px 10px 10px;
+  padding: 30px;
   border-radius: 12px;
-  margin: 30px 0;
+  margin-bottom: 20px;
 }
 
 .flex-card {
   display: flex;
-  max-width: 798px;
   gap: 20px;
 }
 
@@ -70,8 +72,4 @@ input[type="radio"] {
 
 .cards-heading {
   margin: 10px 0 25px 0;
-}
-/* Change the appearance of the checkmark when the radio button is checked */
-input[type="radio"]:checked + .checkmark:after {
-  display: block; /* Show the checkmark when the radio button is checked */
 }

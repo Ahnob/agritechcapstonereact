@@ -4,10 +4,18 @@ import firstimage from "../../../assets/pikaso_texttoimage_A-3d-model-of-a-trian
 import secondimage from "../../../assets/pikaso_texttoimage_A-3d-model-to-demonstrate-precision-planting 2.svg";
 
 function Subscription() {
-  const [selectedOption, setSelectedOption] = useState(null);
+  // State variables for each group of radio buttons
+  const [selectedOption1, setSelectedOption1] = useState(null);
+  const [selectedOption2, setSelectedOption2] = useState(null);
 
-  const handleOptionChange = (event) => {
-    setSelectedOption(event.target.value);
+  // Function to handle radio button change for the first group
+  const handleOptionChange1 = (event) => {
+    setSelectedOption1(event.target.value);
+  };
+
+  // Function to handle radio button change for the second group
+  const handleOptionChange2 = (event) => {
+    setSelectedOption2(event.target.value);
   };
 
   return (
@@ -35,8 +43,8 @@ function Subscription() {
                   <input
                     type="radio"
                     value="option1"
-                    checked={selectedOption === "option1"}
-                    onChange={handleOptionChange}
+                    checked={selectedOption1 === "option1"}
+                    onChange={handleOptionChange1}
                   />
                   <span className="checkmark"></span>
                   An agriculture farming model a strategic framework and
@@ -49,8 +57,8 @@ function Subscription() {
                   <input
                     type="radio"
                     value="option2"
-                    checked={selectedOption === "option2"}
-                    onChange={handleOptionChange}
+                    checked={selectedOption1 === "option2"}
+                    onChange={handleOptionChange1}
                   />
                   <span className="checkmark"></span>
                   Access to Courses and resources on Vertical farming
@@ -62,8 +70,8 @@ function Subscription() {
                   <input
                     type="radio"
                     value="option3"
-                    checked={selectedOption === "option3"}
-                    onChange={handleOptionChange}
+                    checked={selectedOption1 === "option3"}
+                    onChange={handleOptionChange1}
                   />
                   <span className="checkmark"></span>
                   Access to Courses and resources on Vertical farming
@@ -75,7 +83,7 @@ function Subscription() {
           <div className="subscribe-container">
             <div className="first-card">
               <img src={secondimage} alt="First" />
-              <h3 className="cards-heading">Agriculture Farming Model </h3>
+              <h3 className="cards-heading">Precision Farming </h3>
             </div>
             <div>
               <h3>
@@ -89,13 +97,13 @@ function Subscription() {
                   <input
                     type="radio"
                     value="option1"
-                    checked={selectedOption === "option1"}
-                    onChange={handleOptionChange}
+                    checked={selectedOption2 === "option1"}
+                    onChange={handleOptionChange2}
                   />
                   <span className="checkmark"></span>
-                  An agriculture farming model a strategic framework and
-                  approach used by farmers to cultivate crops and raise
-                  livestock efficiently.
+                  Utilizing cutting edge technology and data-driven methods to
+                  optimize agricultural practices at a highly detailed and
+                  accurate level.
                 </label>
               </div>
               <div className="radio-button">
@@ -103,11 +111,11 @@ function Subscription() {
                   <input
                     type="radio"
                     value="option2"
-                    checked={selectedOption === "option2"}
-                    onChange={handleOptionChange}
+                    checked={selectedOption2 === "option2"}
+                    onChange={handleOptionChange2}
                   />
                   <span className="checkmark"></span>
-                  Access to Courses and resources on Vertical farming
+                  Access to Courses and resources on Precision farming
                 </label>
               </div>
 
@@ -116,8 +124,8 @@ function Subscription() {
                   <input
                     type="radio"
                     value="option3"
-                    checked={selectedOption === "option3"}
-                    onChange={handleOptionChange}
+                    checked={selectedOption2 === "option3"}
+                    onChange={handleOptionChange2}
                   />
                   <span className="checkmark"></span>
                   Access to Courses and resources on Vertical farming

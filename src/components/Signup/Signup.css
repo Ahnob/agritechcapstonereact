@@ -19,6 +19,9 @@ h2 {
   font-size: 12px;
 }
 
+input:focus {
+  outline: none;
+}
 .input input {
   background: transparent;
   border: none;

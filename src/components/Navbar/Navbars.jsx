@@ -53,5 +53,4 @@ function Navbars() {
     </nav>
   );
 }
-
 export default Navbars;

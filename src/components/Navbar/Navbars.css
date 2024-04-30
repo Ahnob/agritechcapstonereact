@@ -13,11 +13,10 @@
 .nav-menu {
   display: none;
   list-style-type: none;
-  align-items: center; /* Align items vertically */
 }
 
 .nav-menu li {
-  margin: 0 20px;
+  margin: 0 10px;
 }
 
 .nav-menu li .link {
@@ -37,38 +36,31 @@
 .login-btn {
   /* height: 40px; Adjust height to match other items */
   padding: 5px 25px; /* Add padding to the button */
-  display: flex; /* Display button as a flex container */
-  justify-content: center; /* Center content horizontally */
   align-items: center; /* Center content vertically */
   font-weight: 600;
   background-color: rgb(255, 255, 255);
   cursor: pointer;
   transition: 0.1s ease;
-  font-size: 15px;
-  width: 110px;
+  font-size: 14px;
+  width: 100px;
   border: none;
-  height: 33px;
 }
 
 .signup-btn {
   /* height: 40px; Adjust height to match other items */
   padding: 5px 25px; /* Add padding to the button */
-  /* display: flex; Display button as a flex container */
-  justify-content: center; /* Center content horizontally */
-  align-items: center; /* Center content vertically */
   font-weight: 600;
   background-color: rgb(241, 201, 40);
-  border: 1px solid rgb(241, 201, 40);
   border-radius: 7px;
   cursor: pointer;
   transition: 0.1s ease;
   font-size: 15px;
-  width: 110px;
-  height: 33px;
+  width: 100px;
+  border: none;
 }
 
 .nav-button {
-  gap: 20px;
+  gap: 12px;
   display: none;
 }
 

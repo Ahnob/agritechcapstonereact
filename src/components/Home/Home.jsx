@@ -2,7 +2,6 @@ import "./Home.css";
 import Navbars from "../Navbar/Navbars";
 import AboutUs from "../../components/Aboutus/AboutUs";
 import Footer from "../footer/Footer";
-import Settings from "../Dashboard/Settings/Settings";
 import Offer from ".././Whatweoffer/Whatweoffer";
 
 function Home() {
@@ -32,17 +31,12 @@ function Home() {
           <button className="getstarted_button bolder">Get started</button>
         </div>
       </div>
+
       <AboutUs />
       <Offer />
-      {/* <Settings /> */}
       <Footer />
     </>
   );
 }
-/* 
-      
-/* </>
-  );
-} */
 
 export default Home;
