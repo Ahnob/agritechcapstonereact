@@ -2,9 +2,9 @@
   background-color: white;
   width: 350px;
   margin: 150px auto;
-  height: 500px;
+  height: 590px;
   border-radius: 10px;
-  padding: 25px;
+  padding: 20px;
   border: 1px solid rgb(233, 231, 231);
 }
 
@@ -17,6 +17,7 @@ h2 {
 .first-paragraph {
   color: #000;
   font-size: 12px;
+  padding: 10px;
 }
 
 input:focus {
@@ -25,6 +26,16 @@ input:focus {
 .input input {
   background: transparent;
   border: none;
+}
+
+.remember-me-container {
+  display: flex;
+  gap: 15px;
+}
+
+.remember-me {
+  font-size: 22px;
+  background: #000000a6;
 }
 
 .input {
