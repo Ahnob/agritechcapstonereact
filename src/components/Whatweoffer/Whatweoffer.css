@@ -54,7 +54,7 @@
   padding: 7px;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1440px) {
+@media screen and (min-width: 768px) and (max-width: 1442px) {
   .offer-parent {
     flex-direction: row;
     justify-content: space-around;

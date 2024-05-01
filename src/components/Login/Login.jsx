@@ -48,7 +48,7 @@ const Login = () => {
               placeholder="Email Address"
               maxLength="15"
               required
-              value={email} // Bind email value
+              value={email} 
               onChange={(e) => setEmail(e.target.value)}
             ></input>
           </div>
@@ -67,7 +67,6 @@ const Login = () => {
           </div>
         </div>
         {error && <p className="error-message">{error}</p>}{" "}
-        {/* Display error message if exists */}
         <button type="submit" className="login-button">
           Login
         </button>

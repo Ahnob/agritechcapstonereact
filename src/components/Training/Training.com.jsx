@@ -1,11 +1,11 @@
-import React from 'react'
+// import React from 'react'
 
-function Training.com() {
-  return (
-    <div>
+// function Training.com() {
+//   return (
+//     <div>
       
-    </div>
-  )
-}
+//     </div>
+//   )
+// }
 
-export default Training.com
+// export default Training.com
