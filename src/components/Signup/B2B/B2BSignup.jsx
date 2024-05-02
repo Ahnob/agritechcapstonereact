@@ -33,9 +33,21 @@ function B2BSignup() {
     setConfirmPassword(event.target.value);
   }
 
+  function onSubmit(event) {
+    event.preventDefault();
+    const formValues = {
+      businessName,
+      email,
+      phoneNumber,
+      location,
+      password,
+    };
+    console.log(formValues);
+  }
+
   return (
     <>
-      <div className="container">
+      <form onSubmit={onSubmit} action="#" className="container">
         <h2>Sign Up</h2>
         <p className="first-paragraph">
           Enter your details to create your account
@@ -118,14 +130,16 @@ function B2BSignup() {
           <input className="checkbox conditions" type="checkbox"></input> I
           agree to the terms and conditions
         </div>
-        <button className="signup-button">Create Account</button>
+        <button className="signup-button" type="submit">
+          Create Account
+        </button>
         <div className="login-button-text">
           Already have an account?
           <Link className="signup_link login-a" to="/login">
             Login
           </Link>
         </div>
-      </div>
+      </form>
     </>
   );
 }

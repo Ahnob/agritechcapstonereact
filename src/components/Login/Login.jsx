@@ -46,8 +46,7 @@ const Login = () => {
             <img src={email_icon} alt="" />
             <input
               type="email"
-              placeholder="Email Address"
-              maxLength="15"
+              placeholder="E"
               required
               value={email}
               onChange={(e) => setEmail(e.target.value)}
@@ -98,7 +97,7 @@ const Login = () => {
         </div>
         <div className="login-button-text">
           Do not have an account yet?
-          <Link className="signup_link login-a" to="/b2bsignup">
+          <Link className="signup_link login-a" to="/admin-signup">
             Sign up
           </Link>
         </div>

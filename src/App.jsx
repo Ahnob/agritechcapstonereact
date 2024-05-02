@@ -17,10 +17,10 @@ function App() {
         <Route path="/subscription" element={<Subscription />} />
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
-        <Route path="/farmersignup" element={<FarmerSignup />} />
-        <Route path="/b2bsignup" element={<B2BSignup />} />
-        <Route path="/adminsignup" element={<AdminSignup />} />
-        <Route path="/b2csignup" element={<B2CSignup />} />
+        <Route path="/farmer-signup" element={<FarmerSignup />} />
+        <Route path="/b2b-signup" element={<B2BSignup />} />
+        <Route path="/admin-signup" element={<AdminSignup />} />
+        <Route path="/b2c-signup" element={<B2CSignup />} />
         <Route path="/account-verify" element={<AccountVerify />} />
       </Routes>
     </BrowserRouter>
