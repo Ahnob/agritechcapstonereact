@@ -6,6 +6,7 @@ import google_logo from "../../assets/Google.png";
 import axios from "axios"; // Import Axios
 import { useState } from "react";
 import close_icon from "../../assets/close_hamburger.png";
+import { Link } from "react-router-dom";
 
 const Login = () => {
   const [password, setPassword] = useState("");
@@ -48,7 +49,7 @@ const Login = () => {
               placeholder="Email Address"
               maxLength="15"
               required
-              value={email} 
+              value={email}
               onChange={(e) => setEmail(e.target.value)}
             ></input>
           </div>
@@ -97,9 +98,9 @@ const Login = () => {
         </div>
         <div className="login-button-text">
           Do not have an account yet?
-          <a className="signup_link login-a" href="signuppg.html">
+          <Link className="signup_link login-a" to="/b2bsignup">
             Sign up
-          </a>
+          </Link>
         </div>
       </div>
     </form>
@@ -107,4 +108,3 @@ const Login = () => {
 };
 
 export default Login;
-

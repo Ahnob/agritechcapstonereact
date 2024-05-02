@@ -4,6 +4,7 @@ import customer_icon from "../../../assets/Customer-icon.svg";
 import contact_icon from "../../../assets/Phone-icon.svg";
 import location_icon from "../../../assets/Home Address.png";
 import "./FarmerSignup.css";
+import { Link } from "react-router-dom";
 
 function FarmerSignup() {
   return (
@@ -76,10 +77,10 @@ function FarmerSignup() {
         </div>
         <button className="signup-button">Create Account</button>
         <div className="login-button-text">
-          Do not have an account yet?
-          <a className="signup_link login-a" href="signuppg.html">
-            Sign up
-          </a>
+          Have an account already?
+          <Link className="signup_link login-a" to="/login">
+            Login
+          </Link>
         </div>
       </div>
     </>

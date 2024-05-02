@@ -3,6 +3,7 @@ import password_icon from "../../../assets/Lock.png";
 import phone_icon from "../../../assets/Phone-icon.svg";
 import business_icon from "../../../assets/Business-icon.svg";
 import location_icon from "../../../assets/Home Address.png";
+import { Link, NavLink } from "react-router-dom";
 
 function B2BSignup() {
   return (
@@ -49,7 +50,7 @@ function B2BSignup() {
           <div className="input">
             <img src={location_icon} alt="" />
             <input
-              type="number"
+              type="text"
               placeholder="Business/CompanyAddress"
               maxLength="11"
               required
@@ -72,6 +73,12 @@ function B2BSignup() {
           agree to the terms and conditions
         </div>
         <button className="signup-button">Create Account</button>
+        <div className="login-button-text">
+          Already have an account?
+          <Link className="signup_link login-a" to="/login">
+            Login
+          </Link>
+        </div>
       </div>
     </>
   );
