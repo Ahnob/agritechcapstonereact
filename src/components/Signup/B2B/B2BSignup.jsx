@@ -3,9 +3,36 @@ import password_icon from "../../../assets/Lock.png";
 import phone_icon from "../../../assets/Phone-icon.svg";
 import business_icon from "../../../assets/Business-icon.svg";
 import location_icon from "../../../assets/Home Address.png";
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
+import { useState } from "react";
 
 function B2BSignup() {
+  const [businessName, setBusinessName] = useState("");
+  const [email, setEmail] = useState("");
+  const [phoneNumber, setPhoneNumber] = useState("");
+  const [location, setLocation] = useState("");
+  const [password, setPassword] = useState("");
+  const [confirmPassword, setConfirmPassword] = useState("");
+
+  function updateBusinessName(event) {
+    setBusinessName(event.target.value);
+  }
+  function updateEmail(event) {
+    setEmail(event.target.value);
+  }
+  function updatePhoneNumber(event) {
+    setPhoneNumber(event.target.value);
+  }
+  function updateLocation(event) {
+    setLocation(event.target.value);
+  }
+  function updatePassword(event) {
+    setPassword(event.target.value);
+  }
+  function updateConfirmPassword(event) {
+    setConfirmPassword(event.target.value);
+  }
+
   return (
     <>
       <div className="container">
@@ -17,9 +44,10 @@ function B2BSignup() {
           <div className="input">
             <img src={business_icon} alt="" />
             <input
+              onChange={updateBusinessName}
+              value={businessName}
               type="text"
               placeholder="Business/Company Name"
-              maxLength="15"
               required
             ></input>
           </div>
@@ -28,9 +56,10 @@ function B2BSignup() {
           <div className="input">
             <img src={email_icon} alt="" />
             <input
+              onChange={updateEmail}
               type="email"
               placeholder="Email Address"
-              maxLength="11"
+              value={email}
               required
             ></input>
           </div>
@@ -39,9 +68,9 @@ function B2BSignup() {
           <div className="input">
             <img src={phone_icon} alt="" />
             <input
-              type="number"
+              onChange={updatePhoneNumber}
               placeholder="Phone number"
-              maxLength="11"
+              value={phoneNumber}
               required
             ></input>
           </div>
@@ -50,9 +79,23 @@ function B2BSignup() {
           <div className="input">
             <img src={location_icon} alt="" />
             <input
+              onChange={updateLocation}
               type="text"
               placeholder="Business/CompanyAddress"
-              maxLength="11"
+              required
+              value={location}
+            ></input>
+          </div>
+        </div>
+        <div className="input-box">
+          <div className="input">
+            <img src={password_icon} alt="" />
+            <input
+              onChange={updatePassword}
+              type="password"
+              placeholder="Password"
+              maxLength="15"
+              value={password}
               required
             ></input>
           </div>
@@ -61,13 +104,16 @@ function B2BSignup() {
           <div className="input">
             <img src={password_icon} alt="" />
             <input
+              onChange={updateConfirmPassword}
               type="password"
-              placeholder="Password"
+              placeholder="Confirm Password"
               maxLength="15"
+              value={confirmPassword}
               required
             ></input>
           </div>
         </div>
+
         <div className="conditions-container">
           <input className="checkbox conditions" type="checkbox"></input> I
           agree to the terms and conditions
