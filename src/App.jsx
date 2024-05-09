@@ -8,6 +8,8 @@ import FarmerSignup from "./components/Signup/Farmersignup/FarmerSignup";
 import B2BSignup from "./components/Signup/B2B/B2BSignup";
 import AdminSignup from "./components/Signup/Adminsignup/AdminSignup";
 import B2CSignup from "./components/Signup/B2C/B2CSignup";
+import Contactus from "./components/Contactus/Contactus";
+import AboutUs from "./components/Aboutus/AboutUs";
 
 function App() {
   return (
@@ -16,7 +18,9 @@ function App() {
         <Route path="/settings" element={<Settings />} />
         <Route path="/subscription" element={<Subscription />} />
         <Route path="/" element={<Home />} />
+        <Route path="/Aboutus" element={<AboutUs />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/Contactus" element={<Contactus />} />
         <Route path="/farmer-signup" element={<FarmerSignup />} />
         <Route path="/b2b-signup" element={<B2BSignup />} />
         <Route path="/admin-signup" element={<AdminSignup />} />

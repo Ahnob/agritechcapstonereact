@@ -37,7 +37,7 @@ const Login = () => {
 
   return (
     <form onSubmit={handleLogin}>
-      <div className="container">
+      <div className="login-container">
         <img className="close_icon" src={close_icon} />
         <h2 className="login-h2">Log In</h2>
         <p className="first-paragraph">Please fill in your details to log in</p>
@@ -46,7 +46,7 @@ const Login = () => {
             <img src={email_icon} alt="" />
             <input
               type="email"
-              placeholder="E"
+              placeholder="Email Address"
               required
               value={email}
               onChange={(e) => setEmail(e.target.value)}

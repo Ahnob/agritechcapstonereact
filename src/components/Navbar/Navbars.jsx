@@ -3,6 +3,7 @@ import logo from "../../assets/logo.png";
 import hamburger_icon from "../../assets/hamburger.svg";
 import SideNav from ".././side-nav/Sidenav";
 import "./Navbars.css";
+import { Link } from "react-router-dom";
 
 function Navbars() {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,24 +14,21 @@ function Navbars() {
       </div>
       <ul className="nav-menu" id="navMenu">
         <li>
-          <a href="#welcome" className="link">
-            Home
-          </a>
+          <Link to="/">Home</Link>
         </li>
         <li>
           <a href="#about-heading" className="link">
+            <Link to="/Aboutus">About Us</Link>
             About Us
           </a>
         </li>
         <li>
           <a href="#service" className="link">
-            Services
+            Products
           </a>
         </li>
         <li>
-          <a href="#Contact" className="link">
-            Contact Us
-          </a>
+          <Link to="/Contactus">Contact Us</Link>
         </li>
         <li>
           <a href="#market" className="link">
@@ -40,7 +38,7 @@ function Navbars() {
       </ul>
       <div className="nav-button">
         <button className="login-btn">
-          <a href="../html/login.html">Log in</a>
+          <Link to="/login">Log in</Link>
         </button>
         <button className="signup-btn">
           <a href="../html/sign.html">Sign Up</a>

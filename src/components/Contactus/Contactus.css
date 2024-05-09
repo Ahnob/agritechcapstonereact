@@ -1,0 +1,31 @@
+.contact-container {
+  width: 100%;
+  margin: 0;
+}
+
+.contact-button {
+}
+
+.contact-paragraph {
+  text-align: left;
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.input {
+  height: 30px;
+  border: 1px solid rgb(176, 176, 176);
+  border-radius: 5px;
+  outline: none;
+  transition: 0.2s ease;
+  background: transparent;
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+  width: 300px;
+  transition: 0.2s ease;
+  display: flex;
+  margin: 10px auto;
+  align-items: center;
+}
