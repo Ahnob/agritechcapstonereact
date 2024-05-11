@@ -28,7 +28,7 @@ function Footer() {
             </ul>
           </div>
           <div className="list none">
-            <h5>Navigation</h5>
+            <h5 className="navigation">Navigation</h5>
             <ul className="the-list">
               <li className="none">Home</li>
               <li className="none">About Us</li>

@@ -17,23 +17,16 @@ function Navbars() {
           <Link to="/">Home</Link>
         </li>
         <li>
-          <a href="#about-heading" className="link">
-            <Link to="/Aboutus">About Us</Link>
-            About Us
-          </a>
+          <Link to="/Aboutus">About Us</Link>
         </li>
         <li>
-          <a href="#service" className="link">
-            Products
-          </a>
+          <Link to="/Contactus">Products</Link>
         </li>
         <li>
           <Link to="/Contactus">Contact Us</Link>
         </li>
         <li>
-          <a href="#market" className="link">
-            Market Place
-          </a>
+          <Link to="/Contactus">Market Place</Link>
         </li>
       </ul>
       <div className="nav-button">

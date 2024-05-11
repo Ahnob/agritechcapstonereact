@@ -10,7 +10,7 @@ import AdminSignup from "./components/Signup/Adminsignup/AdminSignup";
 import B2CSignup from "./components/Signup/B2C/B2CSignup";
 import Contactus from "./components/Contactus/Contactus";
 import AboutUs from "./components/Aboutus/AboutUs";
-
+import Onboarding from "./components/Alreadyhaveanaccount/Onboarding";
 function App() {
   return (
     <BrowserRouter>
@@ -26,6 +26,7 @@ function App() {
         <Route path="/admin-signup" element={<AdminSignup />} />
         <Route path="/b2c-signup" element={<B2CSignup />} />
         <Route path="/account-verify" element={<AccountVerify />} />
+        <Route path="/onboarding" element={<Onboarding />} />
       </Routes>
     </BrowserRouter>
   );
