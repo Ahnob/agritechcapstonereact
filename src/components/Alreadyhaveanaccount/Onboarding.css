@@ -1,0 +1,49 @@
+.footer-yellowcolor {
+  color: rgb(241, 201, 40);
+  display: inline !important;
+}
+
+.onboarding-container {
+  background-color: #e8e8e8;
+}
+
+.onboarding-child {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.onboarding-child1 {
+  border: 1px solid grey;
+  background: #fff;
+  border-radius: 10px;
+}
+
+.onboarding-child2 {
+  border: 1px solid grey;
+  background: #fff;
+  border-radius: 10px;
+}
+
+.handshake_image {
+  display: block;
+  margin: auto;
+}
+
+.farmer_image {
+  display: block;
+  margin: auto;
+}
+
+.onboarding-header {
+  text-align: center;
+}
+
+.close_icon {
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.onboarding-paragraph {
+  padding: 0 15px;
+}
