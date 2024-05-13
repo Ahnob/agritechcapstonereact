@@ -46,6 +46,10 @@
   border: none;
 }
 
+.link{
+  color: #000;
+}
+
 .signup-btn {
   /* height: 40px; Adjust height to match other items */
   padding: 5px 25px; /* Add padding to the button */

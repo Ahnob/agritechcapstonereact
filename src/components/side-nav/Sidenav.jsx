@@ -6,6 +6,7 @@ import phoneicon from "../../assets/Phone-icon.svg";
 import marketicon from "../../assets/market-icon.svg";
 import loginicon from "../../assets/signin-icon.svg";
 import signupicon from "../../assets/signup-icon.svg";
+import { Link } from "react-router-dom";
 
 function Sidenav(props) {
   return (
@@ -19,45 +20,45 @@ function Sidenav(props) {
       <ul className="side-nav">
         <li className="sidenav-list">
           <img src={homeicon} />
-          <a href="#welcome" className="sidenav-anchor">
+          <Link to="/" className="sidenav-anchor">
             Home
-          </a>
+          </Link>
         </li>
         <li className="sidenav-list">
           <img src={infoicon} />
-          <a href="#about-heading" className="sidenav-anchor">
+          <Link to="/Aboutus" className="sidenav-anchor">
             About Us
-          </a>
+          </Link>
         </li>
         <li className="sidenav-list">
           <img src={infoicon} />
-          <a href="#service" className="sidenav-anchor">
+          <Link to="/Products" className="sidenav-anchor">
             Products
-          </a>
+          </Link>
         </li>
         <li className="sidenav-list">
           <img src={phoneicon} />
-          <a href="#Contact" className="sidenav-anchor">
+          <Link to="/Contactus" className="sidenav-anchor">
             Contact Us
-          </a>
+          </Link>
         </li>
         <li className="sidenav-list">
           <img src={marketicon} />
-          <a href="#market" className="sidenav-anchor">
+          <Link to="/Marketplace" className="sidenav-anchor">
             Market Place
-          </a>
+          </Link>
         </li>
         <li className="sidenav-list">
           <img src={signupicon} />
-          <a href="#signup" className="sidenav-anchor">
+          <Link to="/Login" className="sidenav-anchor">
             Login
-          </a>
+          </Link>
         </li>
         <li className="sidenav-list">
           <img src={loginicon} />
-          <a href="login" className="sidenav-anchor">
+          <Link to="/Signout" className="sidenav-anchor">
             Sign out
-          </a>
+          </Link>
         </li>
       </ul>
     </div>

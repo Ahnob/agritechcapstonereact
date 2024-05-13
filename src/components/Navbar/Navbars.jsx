@@ -14,19 +14,29 @@ function Navbars() {
       </div>
       <ul className="nav-menu" id="navMenu">
         <li>
-          <Link to="/">Home</Link>
+          <Link to="/" className="link">
+            Home
+          </Link>
         </li>
         <li>
-          <Link to="/Aboutus">About Us</Link>
+          <Link to="/Aboutus" className="link">
+            About Us
+          </Link>
         </li>
         <li>
-          <Link to="/Contactus">Products</Link>
+          <Link to="/Contactus" className="link">
+            Products
+          </Link>
         </li>
         <li>
-          <Link to="/Contactus">Contact Us</Link>
+          <Link to="/Contactus" className="link">
+            Contact Us
+          </Link>
         </li>
         <li>
-          <Link to="/Contactus">Market Place</Link>
+          <Link to="/Contactus" className="link">
+            Market Place
+          </Link>
         </li>
       </ul>
       <div className="nav-button">
