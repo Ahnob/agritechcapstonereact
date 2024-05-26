@@ -22,7 +22,7 @@ function Onboarding() {
             <p className="onboarding-paragraph">I am a farmer looking to explore my options with Agritech</p>
           </div>
         </div>
-        <footer>
+        <footer className="onboarding-footer">
           <div>
             Already have an account?
             <Link className="signup_link login-a" to="/login">

@@ -6,6 +6,7 @@
   border-radius: 10px;
   padding: 25px;
 }
+
 h2 {
   padding-top: 15px;
   text-align: center;
@@ -13,10 +14,12 @@ h2 {
   color: rgb(46, 153, 0);
   font-weight: 600;
 }
+
 p {
   text-align: center;
   font-size: 9.5px;
 }
+
 .input-field {
   width: 290px;
   font-size: 15px;
@@ -28,23 +31,28 @@ p {
   outline: none;
   /* transition: .2s ease */
 }
+
 .input-box i {
   position: relative;
   top: -25px;
   left: 5px;
   color: rgb(186, 183, 183);
 }
+
 .input-box img {
   width: 20px;
   margin: 0 4px;
 }
+
 ::-webkit-input-placeholder {
   color: rgb(186, 183, 183);
   padding-left: 8px;
 }
+
 .input-box + .input-box {
   margin-bottom: -13px;
 }
+
 .farmer-button {
   padding: 8px;
   width: 305px;
@@ -56,15 +64,19 @@ p {
   border: none;
   cursor: pointer;
 }
+
 .farmer-button:hover {
   background-color: rgba(243, 193, 10, 0.549);
 }
+
 .size1 {
   width: 25px;
 }
+
 .size2 {
   width: 25px;
 }
+
 .image {
   display: flex;
   flex-direction: row;
@@ -76,25 +88,31 @@ p {
 label {
   font-size: 12px;
 }
+
 .agreement {
   margin-bottom: 15px;
   color: rgb(173, 171, 171);
 }
+
 .or {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
 }
+
 .or span {
   margin: 0;
 }
+
 .size1 {
   width: 25px;
 }
+
 .size2 {
   width: 25px;
 }
+
 .image {
   display: flex;
   flex-direction: row;
@@ -103,11 +121,13 @@ label {
   justify-content: center;
   margin-bottom: 30px;
 }
+
 #hr1 {
   width: 250px;
   margin-left: 0;
   margin-right: 15px;
 }
+
 #hr2 {
   width: 250px;
   margin-right: 0;
