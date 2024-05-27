@@ -1,25 +1,35 @@
 import handshake_icon from "../../assets/Handshake_icon.svg";
 import farmer_icon from "../../assets/Farmer_icon.svg";
 import { Link } from "react-router-dom";
-import close_icon from "../../assets/Vector-icon.svg";
+import closeicon from "../../assets/close-con.svg";
 import "./Onboarding.css";
 
-function Onboarding() {
+function Onboarding(props) {
   return (
     <>
       <div className="onboarding-container">
-        <img src={close_icon} className="close_icon" />
+        <img
+          onClick={props.onClose}
+          src={closeicon}
+          className="close-icon"
+          alt="close-icon"
+        />
+
         <h3 className="onboarding-header">
           What best describes your role here?
         </h3>
         <div className="onboarding-child">
           <div className="onboarding-child1">
             <img src={handshake_icon} className="handshake_image" />
-            <p className="onboarding-paragraph">I am a Business owner looking to partner with Agritech</p>
+            <p className="onboarding-paragraph">
+              I am a Business owner looking to partner with Agritech
+            </p>
           </div>
           <div className="onboarding-child2">
             <img src={farmer_icon} className="farmer_image" />
-            <p className="onboarding-paragraph">I am a farmer looking to explore my options with Agritech</p>
+            <p className="onboarding-paragraph">
+              I am a farmer looking to explore my options with Agritech
+            </p>
           </div>
         </div>
         <footer className="onboarding-footer">
