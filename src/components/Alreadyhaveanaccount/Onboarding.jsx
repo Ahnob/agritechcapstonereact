@@ -1,7 +1,7 @@
 import handshake_icon from "../../assets/Handshake_icon.svg";
 import farmer_icon from "../../assets/Farmer_icon.svg";
 import { Link } from "react-router-dom";
-import closeicon from "../../assets/close-con.svg";
+import closeicon from "../../assets/Vector-icon.svg";
 import "./Onboarding.css";
 
 function Onboarding(props) {
@@ -11,7 +11,7 @@ function Onboarding(props) {
         <img
           onClick={props.onClose}
           src={closeicon}
-          className="close-icon"
+          className="closeicon"
           alt="close-icon"
         />
 

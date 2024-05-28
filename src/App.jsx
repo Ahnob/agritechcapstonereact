@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { useState } from "react";
 import Login from "./components/Login/Login";
 import Home from "./components/Home/Home";
 import AccountVerify from "./components/Accountverify/AccountVerify";
@@ -11,7 +12,14 @@ import B2CSignup from "./components/Signup/B2C/B2CSignup";
 import Contactus from "./components/Contactus/Contactus";
 import AboutUs from "./components/Aboutus/AboutUs";
 import Onboarding from "./components/Alreadyhaveanaccount/Onboarding";
+
 function App() {
+  const [isOnboardingVisible, setOnboardingVisible] = useState(true);
+
+  const handleOnClose = () => {
+    setOnboardingVisible(false);
+  };
+
   return (
     <BrowserRouter>
       <Routes>
@@ -26,7 +34,17 @@ function App() {
         <Route path="/admin-signup" element={<AdminSignup />} />
         <Route path="/b2c-signup" element={<B2CSignup />} />
         <Route path="/account-verify" element={<AccountVerify />} />
-        <Route path="/onboarding" element={<Onboarding />} />
+        {/* <Route path="/onboarding" element={<Onboarding />} /> */}
+        <Route
+          path="/onboarding"
+          element={
+            isOnboardingVisible ? (
+              <Onboarding onClose={handleOnClose} />
+            ) : (
+              <Login />
+            )
+          }
+        />
       </Routes>
     </BrowserRouter>
   );
