@@ -43,9 +43,6 @@ function Navbars() {
         <button className="login-btn">
           <Link to="/login">Log in</Link>
         </button>
-        <button className="signup-btn">
-          <a href="../html/sign.html">Sign Up</a>
-        </button>
       </div>
       <button onClick={() => setIsOpen(true)} className="hamburger">
         <img src={hamburger_icon} alt="hamburger icon" />

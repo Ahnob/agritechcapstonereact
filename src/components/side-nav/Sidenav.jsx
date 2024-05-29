@@ -50,14 +50,14 @@ function Sidenav(props) {
         </li>
         <li className="sidenav-list">
           <img src={signupicon} />
-          <Link to="/Login" className="sidenav-anchor">
-            Login
+          <Link to="/Onboarding" className="sidenav-anchor">
+            Sign up
           </Link>
         </li>
         <li className="sidenav-list">
           <img src={loginicon} />
-          <Link to="/Signout" className="sidenav-anchor">
-            Sign out
+          <Link to="/Login" className="sidenav-anchor">
+            Log in
           </Link>
         </li>
       </ul>

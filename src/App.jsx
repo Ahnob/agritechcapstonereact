@@ -14,12 +14,6 @@ import AboutUs from "./components/Aboutus/AboutUs";
 import Onboarding from "./components/Alreadyhaveanaccount/Onboarding";
 
 function App() {
-  const [isOnboardingVisible, setOnboardingVisible] = useState(true);
-
-  const handleOnClose = () => {
-    setOnboardingVisible(false);
-  };
-
   return (
     <BrowserRouter>
       <Routes>
@@ -34,17 +28,7 @@ function App() {
         <Route path="/admin-signup" element={<AdminSignup />} />
         <Route path="/b2c-signup" element={<B2CSignup />} />
         <Route path="/account-verify" element={<AccountVerify />} />
-        {/* <Route path="/onboarding" element={<Onboarding />} /> */}
-        <Route
-          path="/onboarding"
-          element={
-            isOnboardingVisible ? (
-              <Onboarding onClose={handleOnClose} />
-            ) : (
-              <Login />
-            )
-          }
-        />
+        <Route path="/onboarding" element={<Onboarding />} />
       </Routes>
     </BrowserRouter>
   );
