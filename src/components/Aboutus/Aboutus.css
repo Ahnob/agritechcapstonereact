@@ -75,6 +75,11 @@ hr {
   margin-top: 20px;
 }
 
+.top-container {
+  display: flex;
+  justify-content: space-between;
+}
+
 /* .about-para {
   display: flex;
   flex-direction: column;

@@ -1,10 +1,22 @@
 .footer-yellowcolor {
   color: rgb(241, 201, 40);
   display: inline !important;
+  cursor: pointer;
 }
 
 .onboarding-container {
   background-color: #e8e8e8;
+}
+
+.get-started button {
+  margin: 15px 0;
+  background-color: rgb(241, 201, 40);
+  border-radius: 10px;
+  padding: 12px 25px;
+  color: #000;
+  font-size: 20px;
+  border: none;
+  font-weight: 500;
 }
 
 .onboarding-child {

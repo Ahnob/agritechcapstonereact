@@ -1,0 +1,10 @@
+.hamburger {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.hamburger img {
+  width: 30px;
+  height: 30px;
+}

@@ -1,10 +1,13 @@
 import "./Footer.css";
 import logo from "../../assets/logo.png";
+import { Link } from "react-router-dom";
+import HamburgerMenu from "../hamburgerMenu/hamburgerMenu";
 
 function Footer() {
   return (
     <>
       <footer className="footer">
+        <img src={HamburgerMenu} alt="hamburger" />
         <div className="footer-content">
           <div>
             <img src={logo} alt="logo" className="logo-image" />
@@ -18,31 +21,84 @@ function Footer() {
           <div className="list">
             <h5>Navigation</h5>
             <ul className="the-list">
-              <li>FAQs</li>
-              <li className="none">Terms of Service</li>
-              <li className="none">Privacy Policy</li>
-              <li>About us</li>
-              <li className="none">Social Media handles</li>
-              <li className="none">Blog</li>
-              <li>Products</li>
+              <li>
+                <Link className="footer-link" to="/faqs">
+                  FAQs
+                </Link>
+              </li>
+              <li className="none">
+                <Link className="footer-link" to="/terms-of-service">
+                  Terms of Service
+                </Link>
+              </li>
+              <li className="none">
+                <Link className="footer-link" to="/privacy-policy">
+                  Privacy Policy
+                </Link>
+              </li>
+              <li>
+                <Link className="footer-link" to="/about-us">
+                  About us
+                </Link>
+              </li>
+              <li className="none">
+                <Link className="footer-link" to="/social-media-handles">
+                  Social Media handles
+                </Link>
+              </li>
+              <li className="none">
+                <Link className="footer-link" to="/blog">
+                  Blog
+                </Link>
+              </li>
+              <li>
+                <Link className="footer-link" to="/products">
+                  Products
+                </Link>
+              </li>
             </ul>
           </div>
           <div className="list none">
             <h5 className="navigation">Navigation</h5>
             <ul className="the-list">
-              <li className="none">Home</li>
-              <li className="none">About Us</li>
-              <li className="none">Products</li>
-              <li className="none">Contact Us</li>
-              <li className="none">Market Place</li>
+              <li className="none">
+                <Link className="footer-link" to="/" onClick="">
+                  Home
+                </Link>
+              </li>
+              <li className="none">
+                <Link className="footer-link" to="/Aboutus" onClick="">
+                  About Us
+                </Link>
+              </li>
+              <li className="none">
+                <Link className="footer-link" to="/products" onClick="">
+                  Products
+                </Link>
+              </li>
+
+              <li className="none">
+                <Link className="footer-link" to="/market-place" onClick="">
+                  Market Place
+                </Link>
+              </li>
+              <li className="none">
+                <a
+                  href="https://externalwebsite.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  External Link
+                </a>
+              </li>
             </ul>
           </div>
           <div className="list">
             <h5>Contact Us</h5>
             <ul className="the-list">
-              <li>Email</li>
-              <li>Phone No</li>
-              <li>Address</li>
+              <li>Email: uphaqar@gmail.com</li>
+              <li>Phone No:+23480987654</li>
+              <li>Address: Abuja</li>
             </ul>
           </div>
         </div>

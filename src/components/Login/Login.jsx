@@ -3,7 +3,7 @@ import email_icon from "../../assets/email.png";
 import password_icon from "../../assets/Lock.png";
 import facebook_logo from "../../assets/facebook.png";
 import google_logo from "../../assets/Google.png";
-import axios from "axios"; // Import Axios
+import axios from "axios";
 import { useState } from "react";
 import close_icon from "../../assets/close_hamburger.png";
 import { Link } from "react-router-dom";
@@ -98,7 +98,7 @@ const Login = () => {
         <div className="login-button-text">
           Do not have an account yet?
           <Link className="signup_link login-a" to="/admin-signup">
-            Sign up
+            Sign Up
           </Link>
         </div>
       </div>

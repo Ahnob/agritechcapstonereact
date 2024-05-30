@@ -46,6 +46,12 @@
   margin-right: 10px;
 }
 
+.footer-link {
+  color: white;
+  text-decoration: none;
+  list-style: none;
+}
+
 @media screen and (min-width: 768px) and (max-width: 1440px) {
   .none {
     display: block;

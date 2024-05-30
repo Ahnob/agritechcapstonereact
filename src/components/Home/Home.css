@@ -60,6 +60,19 @@
   font-weight: 500;
 }
 
+.getstarted_button:hover {
+  background-color: rgb(192, 157, 16);
+}
+
+.getstarted_link {
+  color: rgb(5, 4, 4);
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  line-height: inherit;
+}
 .whatweoffer-hr {
   border-color: rgb(46, 153, 0);
   margin-top: 20px;
@@ -87,6 +100,10 @@
 
   .secondpic-aboutus {
     max-width: 300px;
+  }
+
+  Link {
+    color: #000;
   }
 
   .section1 {

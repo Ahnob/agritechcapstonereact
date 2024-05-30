@@ -1,10 +1,15 @@
 import about_image from "../../assets/about.png";
 import "./Aboutus.css";
+import hamburger_icon from "../../assets/hamburger.svg";
 function AboutUs() {
   return (
     <>
       <div className="about-container">
-        <p className="about-heading">About Us</p>
+        <div className="top-about-container">
+          <p className="about-heading">About Us</p>
+          <img src={hamburger_icon} />
+        </div>
+
         <div className="about-content">
           <div className="about-image">
             <img className="secondpic-aboutus" src={about_image} alt="pic" />

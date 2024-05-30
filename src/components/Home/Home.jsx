@@ -1,8 +1,9 @@
 import "./Home.css";
 import Navbars from "../Navbar/Navbars";
-import AboutUs from "../../components/Aboutus/AboutUs";
+import AboutUs from "../Aboutus/AboutUs";
 import Footer from "../footer/Footer";
 import Offer from ".././Whatweoffer/Whatweoffer";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -28,10 +29,13 @@ function Home() {
           brighter future for agriculture and our planet.
         </p>
         <div className="get-started">
-          <button className="getstarted_button bolder">Get started</button>
+          <button className="getstarted_button bolder">
+            <Link to="/Onboarding" className="getstarted_link">
+              Get Started
+            </Link>
+          </button>
         </div>
       </div>
-
       <AboutUs />
       <Offer />
       <Footer />
