@@ -1,5 +1,5 @@
 .offer-head {
-  color: rgb(11, 94, 27);
+  color: #2e9900;
   font-size: 30px;
   font-weight: bold;
   margin: 20px 0 10px 0;
@@ -38,8 +38,8 @@
 }
 
 .offer-container {
-  border: 1px solid green;
-  border-radius: 2.5px;
+  border: 1px solid grey;
+  border-radius: 10px;
   flex: 1;
 }
 

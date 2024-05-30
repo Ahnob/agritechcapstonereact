@@ -16,14 +16,6 @@
   flex-direction: column;
 }
 
-/* 
-.about-para h3 {
-  margin-bottom: 45px;
-  padding-right: 70px;
-  font-size: 32px;
-  font-weight: bold;
-} */
-
 .about-container {
   margin: 20px;
 }
@@ -80,11 +72,6 @@ hr {
   justify-content: space-between;
 }
 
-/* .about-para {
-  display: flex;
-  flex-direction: column;
-} */
-
 @media screen and (min-width: 768px) {
   .about-para {
     flex-direction: column;
@@ -94,6 +81,10 @@ hr {
     display: flex;
     flex-direction: row;
     gap: 50px;
+  }
+
+  .hidden-navbar {
+    display: hidden;
   }
 
   .about-image {
@@ -112,5 +103,9 @@ hr {
     display: flex;
     flex-direction: row;
     gap: 50px;
+  }
+
+  .hidden-navbar {
+    display: hidden;
   }
 }

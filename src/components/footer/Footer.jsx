@@ -1,13 +1,11 @@
 import "./Footer.css";
 import logo from "../../assets/logo.png";
 import { Link } from "react-router-dom";
-import HamburgerMenu from "../hamburgerMenu/hamburgerMenu";
 
 function Footer() {
   return (
     <>
       <footer className="footer">
-        <img src={HamburgerMenu} alt="hamburger" />
         <div className="footer-content">
           <div>
             <img src={logo} alt="logo" className="logo-image" />
@@ -81,15 +79,6 @@ function Footer() {
                 <Link className="footer-link" to="/market-place" onClick="">
                   Market Place
                 </Link>
-              </li>
-              <li className="none">
-                <a
-                  href="https://externalwebsite.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  External Link
-                </a>
               </li>
             </ul>
           </div>

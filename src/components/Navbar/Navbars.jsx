@@ -24,7 +24,7 @@ function Navbars() {
           </Link>
         </li>
         <li>
-          <Link to="/Contactus" className="link">
+          <Link to="/Whatweoffer" className="link">
             Products
           </Link>
         </li>

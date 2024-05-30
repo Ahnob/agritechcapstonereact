@@ -1,5 +1,5 @@
 import "./Whatweoffer.css";
-import first_image from "../../assets/pikaso_texttoimage_A-3d-model-of-a-triangular-vertical-farm (1) 2.svg";
+import first_image from "../../assets/whatweoffer-newimage.svg";
 import second_image from "../../assets/pikaso_texttoimage_A-3d-model-to-demonstrate-precision-planting 2.svg";
 
 function Whatweoffer() {
@@ -22,24 +22,35 @@ function Whatweoffer() {
             <img src={first_image} className="offer-image" />
             <p className="info-head">Agriculture Farming Model</p>
             <p className="info-">
-              An agricultural farming model refers to a strategic framework and
-              approach used by farmers to cultivate crops and raise livestock
-              efficiently. It encompases various aspects such as crop selection,
-              land preparation, planting techniques,irrigation methodsand pest
-              control strategies to maximize productivity and suatainability.
+              We are designing a suspended agritecture in the shape of a
+              pyramid, featuring energy pallets with curved forms made of glassy
+              black steel for heat retention. These pallets serve as sun
+              trackers and mirrors, directing natural sunlight into the
+              building's six layered structure. Each layer measures 379.7 feet,
+              with proportions calculated according to the prototype. In the
+              middle of the building, there's a spiraled transport track system,
+              resembling a train rack, along with an elevator system, to
+              facilitate movement due to the building's length. The steel
+              structure is painted glassy black to retain heat, accommodating
+              soil technology for growing industrial crops. Hydro turbines are
+              incorporated to generate energy for the building's consumption.
             </p>
           </div>
           <div className="offer-container">
             <img src={second_image} alt="pic" className="offer-image" />
             <p className="info-head">Precision Farming</p>
             <p className="info-">
-              Precision farming involves using technology and data-driven
-              methods to optimize agricultural practices at a highly detailed
-              and accurate level. By utilizing tools like GPS, sensors, drones
-              and automated machinery, precision farming enables farmers to make
-              informed decisions in real-time regarding planting, fertilizing,
-              irrigation and pest management to enhance yields, minimize waste
-              and protect the environment.
+              Our Precision Farming solution is a game-changer in modern
+              agriculture, leveraging advanced technology and data-driven
+              insights to optimize crop production, reduce resource wastage, and
+              increase profitability. By integrating sensors, drones, satellite
+              imagery, and AI-powered analytics, Precision Farming enables
+              farmers to make informed decisions tailored to the specific needs
+              of their crops and land. From precise irrigation and fertilization
+              to targeted pest management and yield forecasting, this innovative
+              solution empowers farmers to maximize output while minimizing
+              environmental impact. Join us in shaping the future of agriculture
+              through Precision Farming on AgritechLink.
             </p>
           </div>
         </div>

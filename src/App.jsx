@@ -12,12 +12,14 @@ import B2CSignup from "./components/Signup/B2C/B2CSignup";
 import Contactus from "./components/Contactus/Contactus";
 import AboutUs from "./components/Aboutus/AboutUs";
 import Onboarding from "./components/Alreadyhaveanaccount/Onboarding";
+import Whatweoffer from "./components/Whatweoffer/Whatweoffer";
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/settings" element={<Settings />} />
+        <Route path="/whatweoffer" element={<Whatweoffer />} />
         <Route path="/subscription" element={<Subscription />} />
         <Route path="/" element={<Home />} />
         <Route path="/Aboutus" element={<AboutUs />} />
