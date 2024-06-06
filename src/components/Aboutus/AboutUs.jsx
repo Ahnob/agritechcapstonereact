@@ -15,9 +15,6 @@ function AboutUs() {
             <img className="secondpic-aboutus" src={about_image} alt="pic" />
           </div>
           <div className="about-para">
-            {/* <h3 className="about-header">
-              Unlocking Sustainable Agriculture with Agritecture
-            </h3> */}
             <p className="about-para-one">
               Welcome to AgritechLink, your integrated agricultural management
               platform for sustainable farming and enhanced market access. Our
@@ -30,7 +27,7 @@ function AboutUs() {
               Tech4Dev 2024 fellows and Uphaqar, a pioneering agricultural
               technology company in Nigeria. Through Agile methodologies and
               stakeholder engagement, we recognized the pressing need to address
-              the agricultural `sector's` challenges, including inefficient
+              the agricultural sector's challenges, including inefficient
               farming practices, limited market access, and environmental
               degradation.
             </p>

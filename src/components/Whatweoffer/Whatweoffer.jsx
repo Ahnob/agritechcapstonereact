@@ -1,11 +1,13 @@
 import "./Whatweoffer.css";
 import first_image from "../../assets/whatweoffer-newimage.svg";
 import second_image from "../../assets/pikaso_texttoimage_A-3d-model-to-demonstrate-precision-planting 2.svg";
-
+import Navbars from "../Navbar/Navbars";
 function Whatweoffer() {
   return (
     <>
       <hr className="whatweoffer-hr" />
+      <Navbars />
+
       <div className="section-offer">
         <div className="offer">
           <p className="offer-head">What we offer</p>
