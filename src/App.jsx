@@ -13,6 +13,7 @@ import Contactus from "./components/Contactus/Contactus";
 import AboutUs from "./components/Aboutus/AboutUs";
 import Onboarding from "./components/Alreadyhaveanaccount/Onboarding";
 import Whatweoffer from "./components/Whatweoffer/Whatweoffer";
+import Products from "./components/Products/Product";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
         <Route path="/b2c-signup" element={<B2CSignup />} />
         <Route path="/account-verify" element={<AccountVerify />} />
         <Route path="/onboarding" element={<Onboarding />} />
+        <Route path="/Products" element={<Products />} />
       </Routes>
     </BrowserRouter>
   );

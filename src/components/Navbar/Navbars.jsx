@@ -18,11 +18,11 @@ function Navbars() {
             Home
           </Link>
         </li>
-        <Link to="/Contactus" className="link">
+        <Link to="/Aboutus" className="link">
           About Us
         </Link>
         <li>
-          <Link to="/Aboutus" className="link">
+          <Link to="/Products" className="link">
             Products
           </Link>
         </li>
