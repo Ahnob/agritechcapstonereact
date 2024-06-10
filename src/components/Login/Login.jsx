@@ -97,7 +97,7 @@ const Login = () => {
         </div>
         <div className="login-button-text">
           Do not have an account yet?
-          <Link className="signup_link login-a" to="/admin-signup">
+          <Link className="signup_link login-a" to="/onboarding">
             Sign Up
           </Link>
         </div>

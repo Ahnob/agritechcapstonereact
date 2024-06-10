@@ -6,7 +6,6 @@ function Whatweoffer() {
   return (
     <>
       <hr className="whatweoffer-hr" />
-      <Navbars />
 
       <div className="section-offer">
         <div className="offer">

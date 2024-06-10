@@ -4,7 +4,6 @@ import "./Aboutus.css";
 function AboutUs() {
   return (
     <>
-      <Navbars className="hidden-navbar" />
       <div className="about-container">
         <div className="top-about-container">
           <p className="about-heading">About Us</p>

@@ -29,6 +29,7 @@ function Onboarding(onClose) {
             <p className="onboarding-paragraph">
               I am a Business owner looking to partner with Agritech
             </p>
+            <button className="onboarding-button">Select</button>
           </div>
           <div className="onboarding-child2">
             <img
@@ -39,18 +40,21 @@ function Onboarding(onClose) {
             <p className="onboarding-paragraph">
               I am a farmer looking to explore my options with Agritech
             </p>
+            <button className="onboarding-button">Select</button>
           </div>
           <div className="onboarding-child2">
             <img src={adminIcon} className="farmer_image" alt="admin icon" />
             <p className="onboarding-paragraph">
               I am a farmer looking to explore my options with Agritech
             </p>
+            <button className="onboarding-button">Select</button>
           </div>
           <div className="onboarding-child2">
             <img src={farmer_icon} className="farmer_image" alt="farmer icon" />
             <p className="onboarding-paragraph">
               I am a farmer looking to explore my options with Agritech
             </p>
+            <button className="onboarding-button">Select</button>
           </div>
         </div>
         <footer className="onboarding-footer">
@@ -71,6 +75,5 @@ function Onboarding(onClose) {
     </div>
   );
 }
-
 
 export default Onboarding;
