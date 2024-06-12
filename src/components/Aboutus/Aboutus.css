@@ -1,97 +1,362 @@
-.about-heading {
-  margin: 0;
-  color: rgb(46, 153, 0);
-  font-size: 22px;
-  font-weight: bold;
-  line-height: 28px;
-}
-
-.container h1,
-.container p {
-  margin: 0;
-}
-
-.about-content {
-  display: flex;
-  flex-direction: column;
-}
-
-.about-container {
-  margin: 20px;
-}
-
-.about-header {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 20px;
-  letter-spacing: 0.1px;
-  margin: 10px 0;
-}
-
-.about-para-one {
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 1.4;
-  margin-bottom: 15px;
-}
-
-.about-para-two {
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 1.4;
-  margin-bottom: 15px;
-}
-
-.learn-more {
-  margin: 15px 0;
-  background-color: rgb(241, 201, 40);
-  font-weight: 500;
-  padding: 12px 25px;
-  border: none;
-  border-radius: 6px;
-  font-size: 20px;
-}
-
-.secondpic-aboutus {
-  width: 100%;
-}
-
-.about-image {
-  max-width: 100%;
-  height: auto;
-}
-
-hr {
+.aboutPgImg1 {
   width: 1440px;
-  border-color: rgb(46, 153, 0);
-  margin-top: 20px;
+  height: 500.27px;
+  position: relative;
 }
-
-.top-container {
+.aboutustxt {
+  position: absolute;
+  top: 260px;
+  left: 580px;
+  color: white;
+  font-size: 57px;
+  font-weight: 700;
+}
+.aboutuscontainer {
   display: flex;
-  justify-content: space-between;
+  gap: 40px;
+  /* margin: 50px 30px 20px 90px; */
 }
 
-@media screen and (min-width: 768px) {
-  .about-para {
-    flex-direction: column;
-  }
+.aboutPgImg2 {
+  width: 500.66px;
+  height: 536.73px;
+}
+.aboutUsPgTxt1 {
+  width: 100%;
+  height: 537px;
+}
+.aboutUsPgTxt1 h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: black;
+  text-align: left;
+}
+.aboutUsPgTxt1 span {
+  font-size: 22px;
+  font-weight: 500;
+  color: black;
+  text-align: justify;
+}
+.aboutUsPgTxt1 h2:nth-child(3) {
+  margin-top: 30px;
+}
+.aboutUsPgTxth2 {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  margin: 50px 70px 5px 90px;
+}
+.aboutUsPgTxth2 h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: black;
+  text-align: left;
+}
+.aboutUsPgTxt1 h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: black;
+  text-align: left;
+}
+.aboutUsPgTxth2 span {
+  font-size: 22px;
+  font-weight: 500;
+  color: black;
+  text-align: justify;
+  line-height: 1.5;
+}
+.aboutPgImg3 {
+  width: 465px;
+  height: 430px;
+  margin-top: 10px;
+}
+.aboutUsPgTxth3 {
+  background-color: #fbeebc;
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.aboutUsPgTxth3 h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: black;
+}
+.aboutUsPgTxth3 span {
+  width: 1215px;
+  height: 154px;
+  font-size: 22px;
+  font-weight: 500;
+  color: black;
+  text-align: center;
+}
+.aboutUsPgTxth4 {
+  margin: 50px 70px 5px 90px;
+}
+.aboutUsPgTxth4 h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: black;
+  text-align: left;
+}
+.aboutUsPgTxth4Box1 {
+  width: 385px;
+  height: 285.17;
+  background-color: #95a4fc;
+  border-radius: 10px;
+  padding: 25px 15px 20px 35px;
+}
+.aboutUsPgTxth4Box2 {
+  width: 385px;
+  height: 285.17;
+  background-color: #c6c7f8;
+  border-radius: 10px;
+  padding: 25px 15px 20px 35px;
+}
+.aboutUsPgTxth4Box3 {
+  width: 385px;
+  height: 285.17;
+  background-color: #a8c5da;
+  border-radius: 10px;
+  padding: 25px 15px 20px 35px;
+}
+.aboutUsPgTxth4Box4 {
+  width: 385px;
+  height: 285.17;
+  background-color: #b1e3ff;
+  border-radius: 10px;
+  padding: 25px 15px 20px 35px;
+  color: black;
+}
+.aboutUsPgTxth4Box5 {
+  width: 385px;
+  height: 285.17;
+  background-color: #a1e3cb;
+  border-radius: 10px;
+  padding: 25px 15px 20px 35px;
+}
+.aboutUsPgTxth4Box6 {
+  width: 385px;
+  height: 285.17;
+  background-color: #baedbd;
+  border-radius: 10px;
+  padding: 25px 15px 20px 35px;
+  text-align: justify;
+}
+.aboutUsPgTxth4Box1 div h2 {
+  font-size: 19px;
+  font-weight: 600;
+}
+.aboutUsPgTxth4Box1 div span {
+  font-size: 16px;
+  font-weight: 500;
+}
+.aboutUsPgTxth4Box2 div h2 {
+  font-size: 19px;
+  font-weight: 600;
+}
+.aboutUsPgTxth4Box2 div span {
+  font-size: 16px;
+  font-weight: 500;
+}
+.aboutUsPgTxth4Box3 div h2 {
+  font-size: 19px;
+  font-weight: 600;
+}
+.aboutUsPgTxth4Box3 div span {
+  font-size: 16px;
+  font-weight: 500;
+}
+.aboutUsPgTxth4Box4 div h2 {
+  font-size: 19px;
+  font-weight: 600;
+  color: black;
+}
+.aboutUsPgTxth4Box4 div span {
+  font-size: 16px;
+  font-weight: 500;
+}
+.aboutUsPgTxth4Box5 div h2 {
+  font-size: 19px;
+  font-weight: 600;
+  color: black;
+}
+.aboutUsPgTxth4Box5 div span {
+  font-size: 16px;
+  font-weight: 500;
+}
+.aboutUsPgTxth4Box6 div h2 {
+  font-size: 19px;
+  font-weight: 600;
+  color: black;
+}
+.aboutUsPgTxth4Box6 div span {
+  font-size: 16px;
+  font-weight: 500;
+}
+.aboutUsPgTxth4Box1Img {
+  display: block;
+  margin: 0 auto;
+}
+.aboutUsPgTxth4Flex {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+.aboutUsPgTxth4Flex2 {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  margin-top: 35px;
+  margin-bottom: 25px;
+  margin-left: 90px;
+}
+.ourTeam {
+  margin-left: 90px;
+  width: 1440px;
+  height: 2550px;
+}
+.teamhr {
+  border: 1px solid #979797;
+}
+.ourTeamA {
+  font-size: 32px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.agriI {
+  font-size: 28px;
+  font-weight: 700;
+  color: #216d00;
+  margin-bottom: 40px;
+}
+.teamImg {
+  width: 340px;
+  height: 320.03px;
+}
+.teamImg {
+  width: 350px;
+  height: 344.03px;
+}
+.teamName {
+  font-size: 28px;
+  font-weight: 700;
+  margin-top: 15px;
+}
+.teamRole {
+  font-size: 24px;
+  font-weight: 600;
+  color: #216d00;
+  margin-top: 10px;
+}
+.teamInspire {
+  font-size: 22px;
+  font-weight: 500;
+  margin-top: 15px;
+}
+.teamCards {
+  width: 382px;
+  height: 460.33px;
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1), 0 16px 24px rgba(0, 0, 0, 0.1),
+    0 24px 32px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  height: 550.33px;
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1), 0 16px 24px rgba(0, 0, 0, 0.1),
+    0 24px 32px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+}
+.teamCard {
+  margin: 15px;
+}
 
-  .about-content {
-    display: flex;
-    flex-direction: row;
-    gap: 50px;
-  }
-
-  .hidden-navbar {
-    display: hidden;
-  }
-
-  .about-image {
-    max-width: 100%;
-    height: auto;
-    width: 303px;
-  }
+.teamCardsGrid {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+.topMargin {
+  margin-top: 45px;
+}
+.joinAboutUs {
+  font-size: 36px;
+  font-weight: 700;
+}
+.togetherAboutUs {
+  margin-left: 90px;
+  font-size: 20px;
+  font-weight: 500;
+  width: 1225px;
+  text-align: left;
+}
+.exploreSign {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  align-items: center;
+  justify-content: center;
+}
+.exploreaboutUs {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+  color: #2e9900;
+  font-size: 20px;
+  font-weight: 700;
+}
+.userImg {
+  position: absolute;
+  margin-top: 9px;
+  margin-left: 10px;
+}
+.userImg2 {
+  position: absolute;
+  margin-top: 25px;
+  margin-left: 10px;
+}
+.userInput {
+  padding-left: 35px;
+  width: 520px;
+  height: 36px;
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 5px;
+  border: 1px solid #aba5a5;
+}
+.contantFormAboutUs {
+  display: flex;
+  flex-direction: row;
+  gap: 200px;
+  margin-top: 80px;
+  margin-left: 150px;
+}
+.contantHeadingAboutUs {
+  width: 750px;
+  font-size: 32px;
+  font-weight: 700;
+}
+.topMarginAboutUs {
+  margin-top: 15px;
+}
+#textareaAboutUs {
+  width: 520px;
+  height: 92px;
+  border-radius: 5px;
+  margin-top: 15px;
+  padding-left: 10px;
+  padding-top: 10px;
+  font-size: 14px;
+  font-weight: 400;
+  border: 1px solid #aba5a5;
+}
+.sendAboutUs {
+  width: 240px;
+  height: 48px;
+  font-size: 16px;
+  font-weight: 500;
 }
 
 @media screen and (min-width: 1025px) {
