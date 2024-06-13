@@ -6,10 +6,13 @@ import team_second from "../../assets/second-image.svg";
 import team_third from "../../assets/third-image.png";
 import aboutPgIcon from "../../assets/aboutPgIcon.png";
 import "./Aboutus.css";
+import Navbars from "../Navbar/Navbars";
 
 const AboutUs = () => {
   return (
     <div>
+      <Navbars />
+
       <div>
         <img src={aboutPgImg1} alt="" className="aboutPgImg1" />
         <h3 className="aboutustxt">About us</h3>

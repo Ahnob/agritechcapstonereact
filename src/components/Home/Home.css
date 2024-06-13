@@ -8,6 +8,11 @@
   align-items: center;
 }
 
+.homepage_aboutus {
+  display: flex;
+  flex-direction: column;
+}
+
 .firstp {
   background: green;
   padding: 20px 20px 40px 20px;
@@ -56,12 +61,25 @@
   text-align: center;
   line-height: inherit;
 }
+
+.learnmore_btn {
+  margin-top: 5px;
+  background-color: rgb(241, 201, 40);
+  font-weight: 500;
+  padding: 10px 20px;
+  border: 2px solid rgb(241, 201, 40);
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 22px;
+  width: 202px;
+  height: 60px;
+}
 .whatweoffer-hr {
   border-color: rgb(46, 153, 0);
   margin-top: 20px;
 }
 
-@media screen and (min-width: 767px) and (max-width: 1024px) {
+@media screen and (min-width: 767px) {
   .section1 {
     height: 400px;
   }
@@ -114,5 +132,11 @@
 
   .firstp {
     padding: 20px 20px 40px 20px;
+  }
+
+  .homepage_aboutus {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
   }
 }

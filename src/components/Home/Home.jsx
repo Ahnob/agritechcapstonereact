@@ -1,9 +1,9 @@
 import "./Home.css";
 import Navbars from "../Navbar/Navbars";
-import AboutUs from "../Aboutus/AboutUs";
 import Footer from "../footer/Footer";
 import Offer from ".././Whatweoffer/Whatweoffer";
 import { Link } from "react-router-dom";
+import aboutus_image from "../../assets/about.png";
 
 function Home() {
   return (
@@ -36,7 +36,43 @@ function Home() {
           </button>
         </div>
       </div>
-      <AboutUs />
+      <div>
+        <div className="homepage_aboutus">
+          <img src={aboutus_image} alt="" />
+          <div className="aboutUsPgTxt1">
+            <h2>About Agritechlink</h2>
+            <span>
+              Welcome to AgritechLink, your integrated agricultural management
+              platform for sustainable farming and enhanced market access. Our
+              mission is to revolutionize the agricultural sector in Nigeria by
+              providing innovative solutions that empower farmers, promote
+              sustainable practices, and foster economic growth.
+            </span>
+            <h2>Our Story</h2>
+            <span>
+              AgritechLink was born out of a collaboration between Group 102 of
+              Tech4Dev 2024 fellows and Uphaqar, a pioneering agricultural
+              technology company in Nigeria. Through Agile methodologies and
+              stakeholder engagement, we recognized the pressing need to address
+              the agricultural sector's challenges, including inefficient
+              farming practices, limited market access, and environmental
+              degradation.
+            </span>
+            <button className="Learnmore_btn">Learn more</button>
+          </div>
+        </div>
+      </div>
+
+      {/* <div className="aboutUsPgTxth3">
+        <h2>Our Approach</h2>
+        <span>
+          At AgritechLink, we combine Scrum and Agile methodologies to ensure
+          efficient project management and continuous improvement. Our dedicated
+          team of developers, designers, and project managers work tirelessly to
+          deliver a platform that meets the needs of our stakeholders and users.
+        </span>
+      </div> */}
+      {/* <AboutUs /> */}
       <Offer />
       <Footer />
     </>
