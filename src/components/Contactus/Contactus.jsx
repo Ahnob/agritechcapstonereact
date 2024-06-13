@@ -39,9 +39,14 @@ function Contactus() {
             <img src={phone_icon} />
             <input type="text" placeholder="Phone Number"></input>
           </div>
-          <div className="input-box">
-            <input type="text" placeholder="Your message"></input>
-          </div>
+          <textarea
+            name=""
+            id="message"
+            cols="70"
+            rows="20"
+            className="textarea input-field"
+            placeholder="Your message"
+          ></textarea>
           <button className="contact-button">Send Message</button>
         </div>
       </div>
