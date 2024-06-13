@@ -5,12 +5,11 @@ import team_first from "../../assets/firstimage.png";
 import team_second from "../../assets/second-image.svg";
 import team_third from "../../assets/third-image.png";
 import aboutPgIcon from "../../assets/aboutPgIcon.png";
-import Navbar from "../Navbar/Navbars";
+import "./Aboutus.css";
 
 const AboutUs = () => {
   return (
     <div>
-      <Navbar />
       <div>
         <img src={aboutPgImg1} alt="" className="aboutPgImg1" />
         <h3 className="aboutustxt">About us</h3>
@@ -40,9 +39,9 @@ const AboutUs = () => {
         </div>
       </div>
 
-      <div className="aboutUsPgTxth2">
+      <div className="aboutus-second-container">
         <div className="aboutUsPgTxt1">
-          <h2>Our Solution</h2>
+          <h2 className="aboutus-header">Our Solution</h2>
           <span>
             AgritechLink is a comprehensive platform that offers farmers access
             to Uphaqar's innovative suspended agriculture 3D design farming
@@ -67,46 +66,44 @@ const AboutUs = () => {
           deliver a platform that meets the needs of our stakeholders and users.
         </span>
       </div>
-      <div className="aboutUsPgTxth4">
-        <h2>Key Features</h2>
-        <div className="aboutUsPgTxth4Flex">
-          <div className="aboutUsPgTxth4Box1">
-            <div>
-              <img src={aboutPgIcon} alt="" className="aboutUsPgTxth4Box1Img" />
-              <h2>Uphaqar Agritecture Model:</h2>
-              <span>
-                We enable efficient scaling of Uphaqar's Agritecture model,
-                allowing farmers across Nigeria to benefit from sustainable
-                farming practices.
-              </span>
-            </div>
-          </div>
-          <div className="aboutUsPgTxth4Box2">
-            <div>
-              <img src={aboutPgIcon} alt="" className="aboutUsPgTxth4Box1Img" />
-              <h2>Comprehensive Support System:</h2>
-              <span>
-                Our platform provides free training programs and ongoing
-                assistance to ensure farmers can effectively implement and
-                manage the Agritecture model.
-              </span>
-            </div>
-          </div>
-          <div className="aboutUsPgTxth4Box3">
-            <div>
-              <img src={aboutPgIcon} alt="" className="aboutUsPgTxth4Box1Img" />
-              <h2>Facilitated Market Access:</h2>
-              <span>
-                With our marketplace feature, farmers can showcase and sell
-                their products directly to consumers and businesses, enhancing
-                their profitability and sustainability.
-              </span>
-            </div>
+
+      <h2 className="aboutus-h2">Key Features</h2>
+      <div className="aboutUsPgTxth4Flex">
+        <div className="aboutUsPgTxth4Box1 box">
+          <div>
+            <img src={aboutPgIcon} alt="" className="aboutUsPgTxth4Box1Img" />
+            <h2>Uphaqar Agritecture Model:</h2>
+            <span>
+              We enable efficient scaling of Uphaqar's Agritecture model,
+              allowing farmers across Nigeria to benefit from sustainable
+              farming practices.
+            </span>
           </div>
         </div>
-      </div>
-      <div className="aboutUsPgTxth4Flex2">
-        <div className="aboutUsPgTxth4Box4">
+        <div className="aboutUsPgTxth4Box2 box">
+          <div>
+            <img src={aboutPgIcon} alt="" className="aboutUsPgTxth4Box1Img" />
+            <h2>Comprehensive Support System:</h2>
+            <span>
+              Our platform provides free training programs and ongoing
+              assistance to ensure farmers can effectively implement and manage
+              the Agritecture model.
+            </span>
+          </div>
+        </div>
+        <div className="aboutUsPgTxth4Box3 box">
+          <div>
+            <img src={aboutPgIcon} alt="" className="aboutUsPgTxth4Box1Img" />
+            <h2>Facilitated Market Access:</h2>
+            <span>
+              With our marketplace feature, farmers can showcase and sell their
+              products directly to consumers and businesses, enhancing their
+              profitability and sustainability.
+            </span>
+          </div>
+        </div>
+
+        <div className="aboutUsPgTxth4Box4 box">
           <div>
             <img src={aboutPgIcon} alt="" className="aboutUsPgTxth4Box1Img" />
             <h2>Promoting Sustainable Practices:</h2>
@@ -117,7 +114,7 @@ const AboutUs = () => {
             </span>
           </div>
         </div>
-        <div className="aboutUsPgTxth4Box5">
+        <div className="aboutUsPgTxth4Box5 box">
           <div>
             <img src={aboutPgIcon} alt="" className="aboutUsPgTxth4Box1Img" />
             <h2>Revenue Generation:</h2>
@@ -128,7 +125,7 @@ const AboutUs = () => {
             </span>
           </div>
         </div>
-        <div className="aboutUsPgTxth4Box6">
+        <div className="aboutUsPgTxth4Box6 box">
           <div>
             <img src={aboutPgIcon} alt="" className="aboutUsPgTxth4Box1Img" />
             <h2>Driving Innovation:</h2>
@@ -140,6 +137,7 @@ const AboutUs = () => {
           </div>
         </div>
       </div>
+
       <hr className="teamhr" />
       <div className="ourTeam">
         <div>
@@ -160,6 +158,46 @@ const AboutUs = () => {
               <img src={team_second} alt="" className="teamImg" />
               <br />
               <div className="teamName">Mutiyat Salami</div>
+              <div className="teamRole">Product Manager</div>
+            </div>
+          </div>
+          <div className="teamCards">
+            <div className="teamCard">
+              <img src={team_third} alt="" className="teamImg" />
+              <br />
+              <div className="teamName">Moromoluwa Olusanjo</div>
+              <div className="teamRole">Product Manager</div>
+            </div>
+          </div>
+          <div className="teamCards">
+            <div className="teamCard">
+              <img src={team_third} alt="" className="teamImg" />
+              <br />
+              <div className="teamName">Moromoluwa Olusanjo</div>
+              <div className="teamRole">Product Manager</div>
+            </div>
+          </div>
+          <div className="teamCards">
+            <div className="teamCard">
+              <img src={team_third} alt="" className="teamImg" />
+              <br />
+              <div className="teamName">Moromoluwa Olusanjo</div>
+              <div className="teamRole">Product Manager</div>
+            </div>
+          </div>
+          <div className="teamCards">
+            <div className="teamCard">
+              <img src={team_third} alt="" className="teamImg" />
+              <br />
+              <div className="teamName">Moromoluwa Olusanjo</div>
+              <div className="teamRole">Product Manager</div>
+            </div>
+          </div>
+          <div className="teamCards">
+            <div className="teamCard">
+              <img src={team_third} alt="" className="teamImg" />
+              <br />
+              <div className="teamName">Moromoluwa Olusanjo</div>
               <div className="teamRole">Product Manager</div>
             </div>
           </div>

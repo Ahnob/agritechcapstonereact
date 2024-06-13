@@ -1,7 +1,5 @@
 .aboutPgImg1 {
-  width: 1440px;
-  height: 500.27px;
-  position: relative;
+  width: 100%;
 }
 .aboutustxt {
   position: absolute;
@@ -11,19 +9,20 @@
   font-size: 57px;
   font-weight: 700;
 }
+
 .aboutuscontainer {
   display: flex;
   gap: 40px;
-  /* margin: 50px 30px 20px 90px; */
+  flex-direction: column;
+  margin: 50px 30px 20px 90px;
 }
 
 .aboutPgImg2 {
-  width: 500.66px;
-  height: 536.73px;
+  width: 100%;
 }
 .aboutUsPgTxt1 {
   width: 100%;
-  height: 537px;
+  padding: 20px 10px;
 }
 .aboutUsPgTxt1 h2 {
   font-size: 32px;
@@ -42,7 +41,7 @@
 }
 .aboutUsPgTxth2 {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   gap: 40px;
   margin: 50px 70px 5px 90px;
 }
@@ -66,17 +65,23 @@
   line-height: 1.5;
 }
 .aboutPgImg3 {
-  width: 465px;
-  height: 430px;
-  margin-top: 10px;
+  width: 100%;
+  margin: 10px 0;
+}
+
+.aboutus-h2 {
+  color: black;
+  text-align: left;
+  margin-left: 90px;
+}
+.box {
+  padding-bottom: 20px;
 }
 .aboutUsPgTxth3 {
   background-color: #fbeebc;
-  display: flex;
   gap: 5px;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  padding: 30px;
+  text-align: center;
 }
 .aboutUsPgTxth3 h2 {
   font-size: 32px;
@@ -84,16 +89,16 @@
   color: black;
 }
 .aboutUsPgTxth3 span {
-  width: 1215px;
+  width: 100%;
   height: 154px;
   font-size: 22px;
   font-weight: 500;
   color: black;
   text-align: center;
 }
-.aboutUsPgTxth4 {
+/* .aboutUsPgTxth4 {
   margin: 50px 70px 5px 90px;
-}
+} */
 .aboutUsPgTxth4 h2 {
   font-size: 32px;
   font-weight: 700;
@@ -101,44 +106,41 @@
   text-align: left;
 }
 .aboutUsPgTxth4Box1 {
-  width: 385px;
-  height: 285.17;
+  /* width: 385px; */
+  width: 100%;
+  /* height: 285.17; */
   background-color: #95a4fc;
   border-radius: 10px;
   padding: 25px 15px 20px 35px;
 }
 .aboutUsPgTxth4Box2 {
-  width: 385px;
-  height: 285.17;
+  /* width: 385px; */
+  width: 100%;
   background-color: #c6c7f8;
   border-radius: 10px;
   padding: 25px 15px 20px 35px;
 }
 .aboutUsPgTxth4Box3 {
-  width: 385px;
-  height: 285.17;
+  width: 100%;
   background-color: #a8c5da;
   border-radius: 10px;
   padding: 25px 15px 20px 35px;
 }
 .aboutUsPgTxth4Box4 {
-  width: 385px;
-  height: 285.17;
+  width: 100%;
   background-color: #b1e3ff;
   border-radius: 10px;
   padding: 25px 15px 20px 35px;
   color: black;
 }
 .aboutUsPgTxth4Box5 {
-  width: 385px;
-  height: 285.17;
+  width: 100%;
   background-color: #a1e3cb;
   border-radius: 10px;
   padding: 25px 15px 20px 35px;
 }
 .aboutUsPgTxth4Box6 {
-  width: 385px;
-  height: 285.17;
+  width: 100%;
   background-color: #baedbd;
   border-radius: 10px;
   padding: 25px 15px 20px 35px;
@@ -200,22 +202,20 @@
   margin: 0 auto;
 }
 .aboutUsPgTxth4Flex {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   gap: 24px;
+  margin: 35px 90px 25px 90px;
 }
-.aboutUsPgTxth4Flex2 {
+
+.aboutus-second-container {
   display: flex;
-  flex-direction: row;
-  gap: 24px;
-  margin-top: 35px;
-  margin-bottom: 25px;
-  margin-left: 90px;
+  flex-direction: column;
 }
 .ourTeam {
   margin-left: 90px;
-  width: 1440px;
-  height: 2550px;
+  /* width: 100%;
+  height: 2550px; */
 }
 .teamhr {
   border: 1px solid #979797;
@@ -272,8 +272,8 @@
 }
 
 .teamCardsGrid {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
   gap: 25px;
 }
 .topMargin {
@@ -287,19 +287,17 @@
   margin-left: 90px;
   font-size: 20px;
   font-weight: 500;
-  width: 1225px;
+  width: 100%;
   text-align: left;
 }
 .exploreSign {
   display: flex;
-  flex-direction: row;
   gap: 25px;
   align-items: center;
   justify-content: center;
 }
 .exploreaboutUs {
   display: flex;
-  flex-direction: row;
   gap: 15px;
   align-items: center;
   justify-content: center;
@@ -308,12 +306,10 @@
   font-weight: 700;
 }
 .userImg {
-  position: absolute;
   margin-top: 9px;
   margin-left: 10px;
 }
 .userImg2 {
-  position: absolute;
   margin-top: 25px;
   margin-left: 10px;
 }
@@ -328,7 +324,6 @@
 }
 .contantFormAboutUs {
   display: flex;
-  flex-direction: row;
   gap: 200px;
   margin-top: 80px;
   margin-left: 150px;
@@ -342,7 +337,7 @@
   margin-top: 15px;
 }
 #textareaAboutUs {
-  width: 520px;
+  width: 100%;
   height: 92px;
   border-radius: 5px;
   margin-top: 15px;
@@ -359,18 +354,54 @@
   font-weight: 500;
 }
 
+.aboutus-header {
+  margin-top: 10px;
+}
+
 @media screen and (min-width: 1025px) {
   .about-para {
     flex-direction: column;
   }
 
+  .aboutuscontainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    margin: 50px 30px 20px 90px;
+  }
+
+  .aboutus-second-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    margin: 50px 70px 5px 90px;
+  }
+
+  .ourstory-subtext {
+    margin-bottom: 20px;
+  }
   .about-content {
     display: flex;
     flex-direction: row;
     gap: 50px;
   }
 
-  .hidden-navbar {
-    display: hidden;
+  .aboutUsPgTxth4Flex {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+  }
+
+  .aboutUsPgTxth4Box1 {
+    /* width: 385px; */
+    width: 100%;
+    /* height: 285.17; */
+    background-color: #95a4fc;
+    border-radius: 10px;
+    padding: 25px 15px 20px 35px;
+  }
+
+  .teamCardsGrid {
+    grid-template-columns: repeat(3, 2fr);
   }
 }
