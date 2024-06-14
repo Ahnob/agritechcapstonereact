@@ -42,14 +42,14 @@ const MarketPlace = () => {
         </div>
         <div className="displayout">
           <div className="displayout1">
-            <img src={marketplace1} alt="" />
+            <img src={marketplace1} className="product" alt="" />
 
-            <div className="discription">
+            <div className="description">
               <div className="productimage-flex">
-                <h3>Product Name</h3>
-                <img src={loveimg} alt="" />
+                <h3 className="product-name">Product Name</h3>
+                <img src={loveimg} className="love-image" alt="" />
               </div>
-              <p>₦120.00</p>
+              <p className="colorednumber">₦120.00</p>
               <div className="stars">
                 <img src={stars} alt="" />
                 <img src={stars} alt="" />
@@ -59,8 +59,8 @@ const MarketPlace = () => {
                 <p className="rating">(171)</p>
               </div>
               <div className="action-button">
-                <button>Add to Cart</button>
-                <button>Buy Now</button>
+                <button className="addtocartbtn">Add to Cart</button>
+                <button className="buynowbtn">Buy Now</button>
               </div>
             </div>
           </div>
@@ -68,12 +68,12 @@ const MarketPlace = () => {
             <div className="cards">
               <img src={marketplace1} alt="" />
             </div>
-            <div className="discription">
+            <div className="description">
               <div className="productimage-flex">
-                <h3>Product Name</h3>
-                <img src={loveimg} alt="" />
+                <h3 className="product-name">Product Name</h3>
+                <img src={loveimg} className="love-image" alt="" />
               </div>
-              <p>₦120.00</p>
+              <p className="colorednumber">₦120.00</p>
               <div className="stars">
                 <img src={stars} alt="" />
                 <img src={stars} alt="" />
@@ -83,8 +83,8 @@ const MarketPlace = () => {
                 <p className="rating">(171)</p>
               </div>
               <div className="action-button">
-                <button>Add to Cart</button>
-                <button>Buy Now</button>
+                <button className="addtocartbtn">Add to Cart</button>
+                <button className="buynowbtn">Buy Now</button>
               </div>
             </div>
           </div>
@@ -92,12 +92,12 @@ const MarketPlace = () => {
             <div className="cards">
               <img src={marketplace1} alt="" />
             </div>
-            <div className="discription">
+            <div className="description">
               <div className="productimage-flex">
-                <h3>Product Name</h3>
-                <img src={loveimg} alt="" />
+                <h3 className="product-name">Product Name</h3>
+                <img src={loveimg} className="love-image" alt="" />
               </div>
-              <p>₦120.00</p>
+              <p className="colorednumber">₦120.00</p>
               <div className="stars">
                 <img src={stars} alt="" />
                 <img src={stars} alt="" />
@@ -107,8 +107,8 @@ const MarketPlace = () => {
                 <p className="rating">(171)</p>
               </div>
               <div className="action-button">
-                <button>Add to Cart</button>
-                <button>Buy Now</button>
+                <button className="addtocartbtn">Add to Cart</button>
+                <button className="buynowbtn">Buy Now</button>
               </div>
             </div>
           </div>
