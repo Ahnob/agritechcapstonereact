@@ -13,6 +13,7 @@ import AboutUs from "./components/Aboutus/AboutUs";
 import Onboarding from "./components/Alreadyhaveanaccount/Onboarding";
 import Whatweoffer from "./components/Whatweoffer/Whatweoffer";
 import Products from "./components/Products/Product";
+import MarketPlace from "./components/Marketplace/Marketplace";
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
         <Route path="/account-verify" element={<AccountVerify />} />
         <Route path="/onboarding" element={<Onboarding />} />
         <Route path="/Products" element={<Products />} />
+        <Route path="/Marketplace" element={<MarketPlace />} />
       </Routes>
     </BrowserRouter>
   );

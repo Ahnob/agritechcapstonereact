@@ -5,7 +5,7 @@ import SideNav from ".././side-nav/Sidenav";
 import "./Navbars.css";
 import { Link } from "react-router-dom";
 
-function Navbars() {
+function Navbars({ showExtraItems }) {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <nav className="nav">
@@ -32,7 +32,7 @@ function Navbars() {
           </Link>
         </li>
         <li>
-          <Link to="/Contactus" className="link">
+          <Link to="/Marketplace" className="link">
             Market Place
           </Link>
         </li>
