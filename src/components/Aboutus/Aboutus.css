@@ -24,19 +24,23 @@
   font-size: 15px;
   padding-bottom: 15px;
 }
+
 .aboutPgImg2 {
   width: 100%;
 }
+
 .aboutUsPgTxt1 {
   width: 100%;
   padding: 20px 10px;
 }
+
 .aboutUsPgTxt1 h2 {
   font-size: 32px;
   font-weight: 700;
   color: black;
   text-align: left;
 }
+
 .aboutUsPgTxt1 span {
   font-size: 22px;
   font-weight: 500;
@@ -87,8 +91,9 @@
 .aboutUsPgTxth3 {
   background-color: #fbeebc;
   gap: 5px;
-  padding: 30px;
+  padding: 50px;
   text-align: center;
+  margin-bottom: 30px;
 }
 .aboutUsPgTxth3 h2 {
   font-size: 32px;
@@ -101,7 +106,12 @@
   font-size: 22px;
   font-weight: 500;
   color: black;
+  font-weight: 900;
   text-align: center;
+}
+
+.our_approach {
+  margin-bottom: 20px;
 }
 /* .aboutUsPgTxth4 {
   margin: 50px 70px 5px 90px;

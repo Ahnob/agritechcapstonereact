@@ -12,10 +12,33 @@ import marketplace4 from "../../assets/marketplcimg4.png";
 import marketplace5 from "../../assets/marketplcimg5.png";
 import marketplace6 from "../../assets/marketplcimg6.png";
 
+const links = [
+  {
+    label: "Home",
+    href: "/",
+  },
+  {
+    label: "About Us",
+    href: "/Aboutus",
+  },
+  {
+    label: "Products",
+    href: "/Products",
+  },
+  {
+    label: "Contact us",
+    href: "/Contactus",
+  },
+  {
+    label: "Marketplace",
+    href: "/Marketplace",
+  },
+];
+
 const MarketPlace = () => {
   return (
     <>
-      <Navbar />
+      <Navbar links={links} />
       <section className="section">
         <h3 className="marketplace-topheading">Market Place</h3>
         <div className="most">

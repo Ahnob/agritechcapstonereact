@@ -8,10 +8,33 @@ import aboutPgIcon from "../../assets/aboutPgIcon.png";
 import "./Aboutus.css";
 import Navbar from "../Navbar/Navbar";
 
+const links = [
+  {
+    label: "Home",
+    href: "/",
+  },
+  {
+    label: "About Us",
+    href: "/Aboutus",
+  },
+  {
+    label: "Products",
+    href: "/Products",
+  },
+  {
+    label: "Contact us",
+    href: "/Contactus",
+  },
+  {
+    label: "Marketplace",
+    href: "/Marketplace",
+  },
+];
+
 const AboutUs = () => {
   return (
     <div>
-      <Navbar />
+      <Navbar links={links} />
 
       <div>
         <img src={aboutPgImg1} alt="" className="aboutPgImg1" />
@@ -61,7 +84,7 @@ const AboutUs = () => {
         <img src={aboutPgImg3} alt="" className="aboutPgImg3" />
       </div>
       <div className="aboutUsPgTxth3">
-        <h2>Our Approach</h2>
+        <h2 className="our_approach">Our Approach</h2>
         <span>
           At AgritechLink, we combine Scrum and Agile methodologies to ensure
           efficient project management and continuous improvement. Our dedicated

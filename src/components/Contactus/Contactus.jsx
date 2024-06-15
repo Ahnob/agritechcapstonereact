@@ -5,10 +5,33 @@ import "./Contactus.css";
 import Navbar from "../Navbar/Navbar";
 import Footer from "../footer/Footer";
 
+const links = [
+  {
+    label: "Home",
+    href: "/",
+  },
+  {
+    label: "About Us",
+    href: "/Aboutus",
+  },
+  {
+    label: "Products",
+    href: "/Products",
+  },
+  {
+    label: "Contact us",
+    href: "/Contactus",
+  },
+  {
+    label: "Marketplace",
+    href: "/Marketplace",
+  },
+];
+
 function Contactus() {
   return (
     <>
-      <Navbar />
+      <Navbar links={links} />
       <div className="contact-container">
         <div>
           <h3>Contact Us</h3>

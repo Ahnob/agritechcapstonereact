@@ -3,11 +3,34 @@ import second_image from "../../assets/pikaso_texttoimage_A-3d-model-to-demonstr
 import Navbar from "../Navbar/Navbar";
 import Footer from "../footer/Footer";
 
+const links = [
+  {
+    label: "Home",
+    href: "/",
+  },
+  {
+    label: "About Us",
+    href: "/Aboutus",
+  },
+  {
+    label: "Products",
+    href: "/Products",
+  },
+  {
+    label: "Contact us",
+    href: "/Contactus",
+  },
+  {
+    label: "Marketplace",
+    href: "/Marketplace",
+  },
+];
+
 import "./Products.css";
 const Products = () => {
   return (
     <div>
-      <Navbar />
+      <Navbar links={links} />
       <div className="top-product-container">
         <h2 className="product-h3">
           Innovative Agricultural Solutions for a Sustainable Future
