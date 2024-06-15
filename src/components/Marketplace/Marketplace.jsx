@@ -11,6 +11,8 @@ import marketplace3 from "../../assets/marketplcimg3.png";
 import marketplace4 from "../../assets/marketplcimg4.png";
 import marketplace5 from "../../assets/marketplcimg5.png";
 import marketplace6 from "../../assets/marketplcimg6.png";
+import cart_icon from "../../assets/cart_icon.svg";
+import account_icon from "../../assets/Account-icon.svg";
 
 const links = [
   {
@@ -26,11 +28,11 @@ const links = [
     href: "/Products",
   },
   {
-    label: "Contact us",
+    label: "Contact Us",
     href: "/Contactus",
   },
   {
-    label: "Marketplace",
+    label: "Market Place",
     href: "/Marketplace",
   },
 ];
