@@ -5,7 +5,7 @@ import greystar from "../../assets/star-gray.png";
 import marketplace1 from "../../assets/marketplcimg1.png";
 import loveimg from "../../assets/love.png";
 import filter_icon from "../../assets/filtericon.png";
-import vector_icon from "../../assets/Vector-icon.svg";
+import search_icon from "../../assets/search-icon.svg";
 import marketplace2 from "../../assets/marketplcimg2.png";
 import marketplace3 from "../../assets/marketplcimg3.png";
 import marketplace4 from "../../assets/marketplcimg4.png";
@@ -44,9 +44,14 @@ const MarketPlace = () => {
         <div className="most">
           <div className="marketplace-flex">
             <h3 className="bold-h3">Most Popular</h3>
-            <div className="marketplace-flex1">
-              <img src={filter_icon} alt="filter" />
-              <h3>Filter</h3>
+            <div className="search-container">
+              <img src={search_icon} alt="" className="search-icon" />
+              <input
+                type="text"
+                placeholder="Search products and manufacturers..."
+                className="search-input"
+              />
+              <button className="search-btn">Search</button>
             </div>
           </div>
         </div>
@@ -127,8 +132,10 @@ const MarketPlace = () => {
       <div className="marketplace-flex">
         <h3 className="bold-h3">Best Seller</h3>
         <div className="marketplace-flex1">
-          <h3>Expore</h3>
-          <img src={vector_icon} alt="vector" />
+          <button className="marketplace-flex1 filter-btn">
+            <img src={filter_icon} alt="filter" />
+            <p>Filters</p>
+          </button>
         </div>
       </div>
       <div className="displayout">

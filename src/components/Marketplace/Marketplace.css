@@ -103,6 +103,60 @@
   color: #2e9900;
 }
 
+.filter-btn {
+  padding: 12px 25px; /* Add padding to the button */
+  font-weight: 600;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: 0.1s ease;
+  font-size: 15px;
+  border: 1px solid grey;
+  background-color: #fff;
+}
+.filter-btn:hover {
+  background-color: rgb(247, 209, 59);
+}
+
+.search-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 500px;
+  gap: 20px;
+}
+
+.search-icon {
+  position: absolute;
+  left: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+.search-btn {
+  padding: 12px 25px; /* Add padding to the button */
+  font-weight: 600;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: 0.1s ease;
+  font-size: 15px;
+  border: none;
+  background-color: rgb(247, 209, 59);
+}
+
+.search-input {
+  width: 100%;
+  padding-left: 50px;
+  box-sizing: border-box;
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.search-input:focus {
+  border-color: #666;
+  outline: none;
+}
+
 @media (min-width: 1025px) and (max-width: 1366px) {
   .displayout {
     display: flex;

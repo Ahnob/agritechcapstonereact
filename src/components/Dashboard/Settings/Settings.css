@@ -47,7 +47,7 @@
   position: relative;
 }
 
-input[type="text"] {
+input {
   padding: 13px;
   border: 1px solid #ccc;
   border-radius: 7px;
