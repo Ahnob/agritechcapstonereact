@@ -4,6 +4,7 @@ import stars from "../../assets/stars.png";
 import greystar from "../../assets/star-gray.png";
 import marketplace1 from "../../assets/marketplcimg1.png";
 import loveimg from "../../assets/love.png";
+import filter_icon from "../../assets/filtericon.png";
 import vector_icon from "../../assets/Vector-icon.svg";
 import marketplace2 from "../../assets/marketplcimg2.png";
 import marketplace3 from "../../assets/marketplcimg3.png";
@@ -21,8 +22,8 @@ const MarketPlace = () => {
           <div className="marketplace-flex">
             <h3 className="bold-h3">Most Popular</h3>
             <div className="marketplace-flex1">
-              <h3>Expore</h3>
-              <img src={vector_icon} alt="vector" />
+              <img src={filter_icon} alt="filter" />
+              <h3>Filter</h3>
             </div>
           </div>
         </div>

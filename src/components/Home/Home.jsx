@@ -5,10 +5,33 @@ import Offer from ".././Whatweoffer/Whatweoffer";
 import { Link } from "react-router-dom";
 import aboutus_image from "../../assets/about.png";
 
+const links = [
+  {
+    label: "Home",
+    href: "/",
+  },
+  {
+    label: "About Us",
+    href: "/Aboutus",
+  },
+  {
+    label: "Products",
+    href: "/Products",
+  },
+  {
+    label: "Contact us",
+    href: "/Contactus",
+  },
+  {
+    label: "Marketplace",
+    href: "/Marketplace",
+  },
+];
+
 function Home() {
   return (
     <>
-      <Navbar />
+      <Navbar links={links} />
       <div className="section1">
         <div className="text">
           <p>

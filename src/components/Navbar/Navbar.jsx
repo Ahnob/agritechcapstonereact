@@ -4,28 +4,6 @@ import hamburger_icon from "../../assets/hamburger.svg";
 import SideNav from "../side-nav/Sidenav";
 import "./Navbar.css";
 import { NavLink } from "react-router-dom";
-const links = [
-  {
-    label: "Home",
-    href: "/",
-  },
-  {
-    label: "About Us",
-    href: "/Aboutus",
-  },
-  {
-    label: "Products",
-    href: "/Products",
-  },
-  {
-    label: "Contact us",
-    href: "/Contactus",
-  },
-  {
-    label: "Marketplace",
-    href: "/Marketplace",
-  },
-];
 
 function Navbar({ links }) {
   const [isOpen, setIsOpen] = useState(false);
@@ -38,7 +16,7 @@ function Navbar({ links }) {
         {links.map((link) => (
           <li key={link.label}>
             <NavLink to={link.href} className="link">
-              Home
+              {link.label}
             </NavLink>
           </li>
         ))}
