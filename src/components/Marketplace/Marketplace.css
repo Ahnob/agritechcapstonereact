@@ -1,14 +1,14 @@
 .displayout {
   width: 100%;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(1, 2fr);
   gap: 25px;
-  justify-content: center;
+  margin-left: 90px;
+  margin-bottom: 20px;
 }
 
 .displayout1 {
-  border: 1px solid grey;
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
   border-radius: 12px;
 }
 
@@ -31,6 +31,7 @@
 
 .product {
   width: 100%;
+  padding: 15px;
 }
 
 .colorednumber {
@@ -76,14 +77,40 @@
   border: 1px solid rgb(241, 201, 40);
   border-radius: 8px;
 }
-@media (max-width: 1440px) {
+
+.marketplace-flex {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 150px 20px 90px;
+}
+
+.marketplace-flex1 {
+  display: flex;
+  gap: 20px;
+}
+
+.bold-h3 {
+  font-weight: 900;
+}
+
+.marketplace-topheading {
+  margin-left: 90px;
+  margin-bottom: 30px;
+  font-family: Inter;
+  font-size: 57px;
+  font-weight: 700;
+  line-height: 64px;
+  color: #2e9900;
+}
+
+@media (min-width: 1025px) and (max-width: 1366px) {
   .displayout {
     display: flex;
     flex-direction: row;
   }
 }
 
-@media (min-width: 1025px) and (max-width: 1366px) {
+@media (min-width: 1440px) {
   .displayout {
     display: flex;
     flex-direction: row;

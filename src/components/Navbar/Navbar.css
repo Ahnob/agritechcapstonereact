@@ -28,15 +28,14 @@
 }
 
 .link:hover,
-.active {
-  border-bottom: 2px solid #000;
-  color: black;
+.nav-menu li .link.active {
+  color: rgb(241, 201, 40);
 }
 
 .login-btn {
   /* height: 40px; Adjust height to match other items */
   padding: 5px 25px; /* Add padding to the button */
-  align-items: center; /* Center content vertically */
+  align-items: center;
   font-weight: 600;
   background-color: rgb(255, 255, 255);
   cursor: pointer;
@@ -44,10 +43,6 @@
   font-size: 14px;
   width: 100px;
   border: none;
-}
-
-.link {
-  color: #000;
 }
 
 .signup-btn {

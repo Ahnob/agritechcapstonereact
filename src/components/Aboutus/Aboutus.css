@@ -17,6 +17,13 @@
   margin: 50px 30px 20px 90px;
 }
 
+.nav-menu li .link {
+  text-decoration: none;
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  padding-bottom: 15px;
+}
 .aboutPgImg2 {
   width: 100%;
 }
@@ -353,7 +360,6 @@
   font-size: 16px;
   font-weight: 500;
 }
-
 
 .aboutus-header {
   margin-top: 10px;

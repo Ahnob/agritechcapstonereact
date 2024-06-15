@@ -1,6 +1,6 @@
 import first_image from "../../assets/whatweoffer-newimage.svg";
 import second_image from "../../assets/pikaso_texttoimage_A-3d-model-to-demonstrate-precision-planting 2.svg";
-import Navbar from "../Navbar/Navbars";
+import Navbar from "../Navbar/Navbar";
 import Footer from "../footer/Footer";
 
 import "./Products.css";

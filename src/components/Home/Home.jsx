@@ -1,5 +1,5 @@
 import "./Home.css";
-import Navbars from "../Navbar/Navbars";
+import Navbar from "../Navbar/Navbar";
 import Footer from "../footer/Footer";
 import Offer from ".././Whatweoffer/Whatweoffer";
 import { Link } from "react-router-dom";
@@ -8,7 +8,7 @@ import aboutus_image from "../../assets/about.png";
 function Home() {
   return (
     <>
-      <Navbars />
+      <Navbar />
       <div className="section1">
         <div className="text">
           <p>

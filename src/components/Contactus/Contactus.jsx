@@ -2,13 +2,13 @@ import email_icon from "../../assets/email.png";
 import phone_icon from "../../assets/Phone-icon.svg";
 import human_icon from "../../assets/Customer-icon.svg";
 import "./Contactus.css";
-import Navbars from "../Navbar/Navbars";
+import Navbar from "../Navbar/Navbar";
 import Footer from "../footer/Footer";
 
 function Contactus() {
   return (
     <>
-      <Navbars />
+      <Navbar />
       <div className="contact-container">
         <div>
           <h3>Contact Us</h3>
