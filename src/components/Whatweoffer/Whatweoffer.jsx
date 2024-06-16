@@ -36,6 +36,7 @@ function Whatweoffer() {
               soil technology for growing industrial crops. Hydro turbines are
               incorporated to generate energy for the building's consumption.
             </p>
+            <button className="Learnmore-btn">Learn more</button>
           </div>
           <div className="offer-container">
             <img src={second_image} alt="pic" className="offer-image" />
@@ -53,6 +54,7 @@ function Whatweoffer() {
               environmental impact. Join us in shaping the future of agriculture
               through Precision Farming on AgritechLink.
             </p>
+            <button className="Learnmore-btn">Learn more </button>
           </div>
         </div>
       </div>

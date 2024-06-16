@@ -81,7 +81,9 @@ function Home() {
               farming practices, limited market access, and environmental
               degradation.
             </span>
-            <button className="Learnmore_btn">Learn more</button>
+          </div>
+          <div>
+            <button className="Learnmore-btn">Learn more</button>
           </div>
         </div>
       </div>

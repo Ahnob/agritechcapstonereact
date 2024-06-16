@@ -10,12 +10,29 @@
 }
 
 .offer-para {
-  font-size: 12px;
+  font-size: 19px;
   font-weight: normal;
   margin-bottom: 25px;
   line-height: 1.5;
+  font-family: Inter;
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.15000000596046448px;
+  text-align: left;
 }
 
+.Learnmore-btn {
+  padding: 12px 25px;
+  font-weight: 600;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: 0.1s ease;
+  font-size: 15px;
+  border: none;
+  margin: 15px;
+  background-color: rgb(247, 209, 59);
+}
 .whatweoffer-hr {
   border-color: rgb(46, 153, 0);
   margin-top: 20px;
@@ -24,6 +41,7 @@
 
 .offer-image {
   width: 100%;
+  padding: 20px;
 }
 /* .info-container p {
   padding: 10px;
@@ -49,9 +67,10 @@
   padding: 10px;
 }
 .info- {
-  font-size: 10px;
+  font-size: 15.09px;
   font-weight: normal;
   padding: 7px;
+  font-weight: 400;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1440px) {
