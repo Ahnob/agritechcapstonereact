@@ -11,6 +11,7 @@ import marketplace3 from "../../assets/marketplcimg3.png";
 import marketplace4 from "../../assets/marketplcimg4.png";
 import marketplace5 from "../../assets/marketplcimg5.png";
 import marketplace6 from "../../assets/marketplcimg6.png";
+import Footer from "../footer/Footer";
 import cart_icon from "../../assets/cart_icon.svg";
 import account_icon from "../../assets/Account-icon.svg";
 
@@ -286,6 +287,7 @@ const MarketPlace = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 };

@@ -62,14 +62,13 @@ function Contactus() {
             <img src={phone_icon} />
             <input type="text" placeholder="Phone Number"></input>
           </div>
-          <textarea
-            name=""
-            id="message"
-            cols="70"
-            rows="20"
-            className="textarea input-field"
-            placeholder="Your message"
-          ></textarea>
+          <div className="text-area-container">
+            <textarea
+              className="text-area input-field"
+              placeholder="Your message"
+            ></textarea>
+          </div>
+
           <button className="contact-button">Send Message</button>
         </div>
       </div>
