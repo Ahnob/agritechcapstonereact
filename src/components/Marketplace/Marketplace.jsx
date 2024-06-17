@@ -287,6 +287,10 @@ const MarketPlace = () => {
           </div>
         </div>
       </div>
+      <div className="seemore-container">
+        <button className="seemore-btn">See more</button>
+      </div>
+
       <Footer />
     </>
   );

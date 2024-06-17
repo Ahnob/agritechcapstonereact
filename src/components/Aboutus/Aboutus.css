@@ -86,7 +86,7 @@
   margin-left: 90px;
 }
 .box {
-  padding-bottom: 20px;
+  padding: 40px;
 }
 .aboutUsPgTxth3 {
   background-color: #fbeebc;
@@ -94,6 +94,7 @@
   padding: 50px;
   text-align: center;
   margin-bottom: 30px;
+  color: black;
 }
 .aboutUsPgTxth3 h2 {
   font-size: 32px;
@@ -113,9 +114,7 @@
 .our_approach {
   margin-bottom: 20px;
 }
-/* .aboutUsPgTxth4 {
-  margin: 50px 70px 5px 90px;
-} */
+
 .aboutUsPgTxth4 h2 {
   font-size: 32px;
   font-weight: 700;
@@ -123,106 +122,68 @@
   text-align: left;
 }
 .aboutUsPgTxth4Box1 {
-  /* width: 385px; */
   width: 100%;
-  /* height: 285.17; */
   background-color: #95a4fc;
   border-radius: 10px;
-  padding: 25px 15px 20px 35px;
+  color: black;
+  padding: 25px 35px 20px 35px;
 }
 .aboutUsPgTxth4Box2 {
-  /* width: 385px; */
   width: 100%;
+  color: black;
   background-color: #c6c7f8;
   border-radius: 10px;
-  padding: 25px 15px 20px 35px;
+  padding: 25px 35px 20px 35px;
 }
 .aboutUsPgTxth4Box3 {
   width: 100%;
+  color: black;
   background-color: #a8c5da;
   border-radius: 10px;
-  padding: 25px 15px 20px 35px;
+  padding: 25px 35px 20px 35px;
 }
 .aboutUsPgTxth4Box4 {
   width: 100%;
   background-color: #b1e3ff;
   border-radius: 10px;
-  padding: 25px 15px 20px 35px;
+  padding: 25px 35px 20px 35px;
   color: black;
 }
 .aboutUsPgTxth4Box5 {
   width: 100%;
   background-color: #a1e3cb;
   border-radius: 10px;
-  padding: 25px 15px 20px 35px;
+  padding: 35px 15px 20px 35px;
 }
 .aboutUsPgTxth4Box6 {
   width: 100%;
   background-color: #baedbd;
   border-radius: 10px;
-  padding: 25px 15px 20px 35px;
+  padding: 35px;
   text-align: justify;
 }
-.aboutUsPgTxth4Box1 div h2 {
-  font-size: 19px;
-  font-weight: 600;
-}
-.aboutUsPgTxth4Box1 div span {
-  font-size: 16px;
-  font-weight: 500;
-}
-.aboutUsPgTxth4Box2 div h2 {
-  font-size: 19px;
-  font-weight: 600;
-}
-.aboutUsPgTxth4Box2 div span {
-  font-size: 16px;
-  font-weight: 500;
-}
-.aboutUsPgTxth4Box3 div h2 {
-  font-size: 19px;
-  font-weight: 600;
-}
-.aboutUsPgTxth4Box3 div span {
-  font-size: 16px;
-  font-weight: 500;
-}
-.aboutUsPgTxth4Box4 div h2 {
+
+.keyfeatures-head {
   font-size: 19px;
   font-weight: 600;
   color: black;
+  text-align: left;
+  margin-bottom: 12px;
 }
-.aboutUsPgTxth4Box4 div span {
-  font-size: 16px;
-  font-weight: 500;
-}
-.aboutUsPgTxth4Box5 div h2 {
-  font-size: 19px;
-  font-weight: 600;
-  color: black;
-}
-.aboutUsPgTxth4Box5 div span {
-  font-size: 16px;
-  font-weight: 500;
-}
-.aboutUsPgTxth4Box6 div h2 {
-  font-size: 19px;
-  font-weight: 600;
-  color: black;
-}
-.aboutUsPgTxth4Box6 div span {
+
+.keyfeatures-txt {
   font-size: 16px;
   font-weight: 500;
 }
 .aboutUsPgTxth4Box1Img {
   display: block;
-  margin: 0 auto;
+  margin: 10px auto;
 }
 .aboutUsPgTxth4Flex {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 24px;
-  margin: 35px 90px 25px 90px;
+  margin: 35px 90px;
 }
 
 .aboutus-second-container {
@@ -250,13 +211,9 @@
   margin-bottom: 40px;
 }
 .teamImg {
-  width: 340px;
-  height: 320.03px;
+  width: 100%;
 }
-.teamImg {
-  width: 350px;
-  height: 344.03px;
-}
+
 .teamName {
   font-size: 28px;
   font-weight: 700;
@@ -274,15 +231,11 @@
   margin-top: 15px;
 }
 .teamCards {
-  width: 382px;
-  height: 460.33px;
+  width: 100%;
   box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1), 0 16px 24px rgba(0, 0, 0, 0.1),
     0 24px 32px rgba(0, 0, 0, 0.1);
   border-radius: 15px;
-  height: 550.33px;
-  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1), 0 16px 24px rgba(0, 0, 0, 0.1),
-    0 24px 32px rgba(0, 0, 0, 0.1);
-  border-radius: 15px;
+  padding-bottom: 20px;
 }
 .teamCard {
   margin: 15px;
@@ -291,7 +244,8 @@
 .teamCardsGrid {
   display: grid;
   grid-template-columns: repeat(2, 2fr);
-  gap: 25px;
+  gap: 10px;
+  margin: 30px 90px 30px 0;
 }
 .topMargin {
   margin-top: 45px;
@@ -406,13 +360,11 @@
   .aboutUsPgTxth4Flex {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 24px;
+    gap: 25px;
   }
 
   .aboutUsPgTxth4Box1 {
-    /* width: 385px; */
     width: 100%;
-    /* height: 285.17; */
     background-color: #95a4fc;
     border-radius: 10px;
     padding: 25px 15px 20px 35px;

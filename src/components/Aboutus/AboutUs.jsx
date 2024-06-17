@@ -5,6 +5,7 @@ import team_first from "../../assets/firstimage.png";
 import team_second from "../../assets/second-image.svg";
 import team_third from "../../assets/third-image.png";
 import aboutPgIcon from "../../assets/aboutPgIcon.png";
+import Footer from "../footer/Footer";
 import "./Aboutus.css";
 import Navbar from "../Navbar/Navbar";
 
@@ -85,7 +86,7 @@ const AboutUs = () => {
       </div>
       <div className="aboutUsPgTxth3">
         <h2 className="our_approach">Our Approach</h2>
-        <span>
+        <span className="keyfeatures-text">
           At AgritechLink, we combine Scrum and Agile methodologies to ensure
           efficient project management and continuous improvement. Our dedicated
           team of developers, designers, and project managers work tirelessly to
@@ -98,8 +99,8 @@ const AboutUs = () => {
         <div className="aboutUsPgTxth4Box1 box">
           <div>
             <img src={aboutPgIcon} alt="" className="aboutUsPgTxth4Box1Img" />
-            <h2>Uphaqar Agritecture Model:</h2>
-            <span>
+            <h2 className="keyfeatures-head">Uphaqar Agritecture Model:</h2>
+            <span className="keyfeatures-text">
               We enable efficient scaling of Uphaqar's Agritecture model,
               allowing farmers across Nigeria to benefit from sustainable
               farming practices.
@@ -109,8 +110,8 @@ const AboutUs = () => {
         <div className="aboutUsPgTxth4Box2 box">
           <div>
             <img src={aboutPgIcon} alt="" className="aboutUsPgTxth4Box1Img" />
-            <h2>Comprehensive Support System:</h2>
-            <span>
+            <h2 className="keyfeatures-head">Comprehensive Support System:</h2>
+            <span className="keyfeatures-text">
               Our platform provides free training programs and ongoing
               assistance to ensure farmers can effectively implement and manage
               the Agritecture model.
@@ -120,8 +121,8 @@ const AboutUs = () => {
         <div className="aboutUsPgTxth4Box3 box">
           <div>
             <img src={aboutPgIcon} alt="" className="aboutUsPgTxth4Box1Img" />
-            <h2>Facilitated Market Access:</h2>
-            <span>
+            <h2 className="keyfeatures-head">Facilitated Market Access:</h2>
+            <span className="keyfeatures-text">
               With our marketplace feature, farmers can showcase and sell their
               products directly to consumers and businesses, enhancing their
               profitability and sustainability.
@@ -132,8 +133,10 @@ const AboutUs = () => {
         <div className="aboutUsPgTxth4Box4 box">
           <div>
             <img src={aboutPgIcon} alt="" className="aboutUsPgTxth4Box1Img" />
-            <h2>Promoting Sustainable Practices:</h2>
-            <span>
+            <h2 className="keyfeatures-head">
+              Promoting Sustainable Practices:
+            </h2>
+            <span className="keyfeatures-text">
               AgritechLink integrates monitoring and reporting functionalities
               to promote sustainable farming practices and environmental
               conservation.
@@ -143,8 +146,8 @@ const AboutUs = () => {
         <div className="aboutUsPgTxth4Box5 box">
           <div>
             <img src={aboutPgIcon} alt="" className="aboutUsPgTxth4Box1Img" />
-            <h2>Revenue Generation:</h2>
-            <span>
+            <h2 className="keyfeatures-head">Revenue Generation:</h2>
+            <span className="keyfeatures-text">
               By facilitating market access and offering subscription services,
               AgritechLink creates revenue opportunities for both farmers and
               Uphaqar.
@@ -154,8 +157,8 @@ const AboutUs = () => {
         <div className="aboutUsPgTxth4Box6 box">
           <div>
             <img src={aboutPgIcon} alt="" className="aboutUsPgTxth4Box1Img" />
-            <h2>Driving Innovation:</h2>
-            <span>
+            <h2 className="keyfeatures-head">Driving Innovation:</h2>
+            <span className="keyfeatures-text">
               We embrace cutting-edge technologies such as precision farming,
               IoT sensors, and AI to optimize resource use and increase
               efficiency in agriculture.
@@ -199,15 +202,15 @@ const AboutUs = () => {
             <div className="teamCard">
               <img src={team_third} alt="" className="teamImg" />
               <br />
-              <div className="teamName">Moromoluwa Olusanjo</div>
-              <div className="teamRole">Product Manager</div>
+              <div className="teamName">Ifeoma Kalu</div>
+              <div className="teamRole">Product Designer</div>
             </div>
           </div>
           <div className="teamCards">
             <div className="teamCard">
               <img src={team_third} alt="" className="teamImg" />
               <br />
-              <div className="teamName">Moromoluwa Olusanjo</div>
+              <div className="teamName">Zainat Ojewolw</div>
               <div className="teamRole">Product Manager</div>
             </div>
           </div>
@@ -237,6 +240,7 @@ const AboutUs = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

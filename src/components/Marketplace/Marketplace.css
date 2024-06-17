@@ -1,7 +1,7 @@
 .displayout {
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(1, 2fr);
+  grid-template-columns: repeat(2, 2fr);
   gap: 25px;
   margin-left: 90px;
   margin-bottom: 20px;
@@ -142,6 +142,24 @@
   font-size: 15px;
   border: none;
   background-color: rgb(247, 209, 59);
+}
+
+.seemore-btn {
+  padding: 12px 30px;
+  font-weight: 600;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: 0.1s ease;
+  font-size: 15px;
+  border: none;
+  background-color: rgb(247, 209, 59);
+  text-align: center;
+}
+
+.seemore-container {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0;
 }
 
 .search-input {
