@@ -4,6 +4,17 @@ import aboutPgImg3 from "../../assets/whatweoffer-newimage.svg";
 import team_first from "../../assets/firstimage.png";
 import team_second from "../../assets/second-image.svg";
 import team_third from "../../assets/third-image.png";
+import team_fourth from "../../assets/fourth-image.png"
+import team_fifth from "../../assets/fifth-image.png"
+import team_six from "../../assets/sixth-image.png"
+import team_seventh from "../../assets/seventh-image.png"
+import team_eight from "../../assets/eight-image.png"
+import team_ninth from "../../assets/ninth-image.png"
+
+
+
+
+
 import aboutPgIcon from "../../assets/aboutPgIcon.png";
 import Footer from "../footer/Footer";
 import "./Aboutus.css";
@@ -232,10 +243,10 @@ const AboutUs = () => {
           </div>
           <div className="teamCards">
             <div className="teamCard">
-              <img src={team_third} alt="" className="teamImg" />
+              <img src={team_ninth} alt="" className="teamImg" />
               <br />
-              <div className="teamName">Moromoluwa Olusanjo</div>
-              <div className="teamRole">Product Manager</div>
+              <div className="teamName">Anoke Success Ozioma</div>
+              <div className="teamRole">Cyber Security</div>
             </div>
           </div>
         </div>
