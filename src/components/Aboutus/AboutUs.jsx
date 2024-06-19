@@ -285,11 +285,11 @@ const AboutUs = () => {
             your business or family, AgritechLink is here to support you every
             step of the way.
           </p>
-          <div>
+          <div className="flex">
             <p>Explore Agritechlink Platform</p>
             <img src={arrow_image} alt="explore image" />
           </div>
-          <div>
+          <div className="flex">
             <h3>Sign Up </h3>
             <img src={arrow_image} alt="signup in the about page" />
           </div>

@@ -329,6 +329,9 @@
   margin-top: 10px;
 }
 
+.flex {
+  display: flex;
+}
 @media screen and (min-width: 1025px) {
   .about-para {
     flex-direction: column;
