@@ -4,16 +4,15 @@ import aboutPgImg3 from "../../assets/whatweoffer-newimage.svg";
 import team_first from "../../assets/firstimage.png";
 import team_second from "../../assets/second-image.svg";
 import team_third from "../../assets/third-image.png";
-import team_fourth from "../../assets/fourth-image.png"
-import team_fifth from "../../assets/fifth-image.png"
-import team_six from "../../assets/sixth-image.png"
-import team_seventh from "../../assets/seventh-image.png"
-import team_eight from "../../assets/eight-image.png"
-import team_ninth from "../../assets/ninth-image.png"
-
-
-
-
+import team_fourth from "../../assets/fourth-image.png";
+import team_fifth from "../../assets/fifth-image.svg";
+import team_six from "../../assets/sixth-image.png";
+import team_seventh from "../../assets/teamChidinma.png";
+import team_eight from "../../assets/teamAnob-EjahTakon.png";
+import team_ninth from "../../assets/ninth-image.png";
+import team_ten from "../../assets/teamRayhanAlshwehdi.png";
+import team_eleven from "../../assets/ninth-image.png";
+import arrow_image from "../../assets/arrowleft.png";
 
 import aboutPgIcon from "../../assets/aboutPgIcon.png";
 import Footer from "../footer/Footer";
@@ -211,7 +210,7 @@ const AboutUs = () => {
           </div>
           <div className="teamCards">
             <div className="teamCard">
-              <img src={team_third} alt="" className="teamImg" />
+              <img src={team_fourth} alt="" className="teamImg" />
               <br />
               <div className="teamName">Ifeoma Kalu</div>
               <div className="teamRole">Product Designer</div>
@@ -219,35 +218,80 @@ const AboutUs = () => {
           </div>
           <div className="teamCards">
             <div className="teamCard">
-              <img src={team_third} alt="" className="teamImg" />
+              <img src={team_fifth} alt="" className="teamImg" />
               <br />
-              <div className="teamName">Zainat Ojewolw</div>
-              <div className="teamRole">Product Manager</div>
+              <div className="teamName">Zainat Ojewole</div>
+              <div className="teamRole">Product Designer</div>
             </div>
           </div>
           <div className="teamCards">
             <div className="teamCard">
-              <img src={team_third} alt="" className="teamImg" />
+              <img src={team_six} alt="" className="teamImg" />
               <br />
-              <div className="teamName">Moromoluwa Olusanjo</div>
-              <div className="teamRole">Product Manager</div>
+              <div className="teamName">Folashade Adeware</div>
+              <div className="teamRole">Product Designer</div>
             </div>
           </div>
           <div className="teamCards">
             <div className="teamCard">
-              <img src={team_third} alt="" className="teamImg" />
+              <img src={team_seventh} alt="" className="teamImg" />
               <br />
-              <div className="teamName">Moromoluwa Olusanjo</div>
-              <div className="teamRole">Product Manager</div>
+              <div className="teamName">Chidinma Ugonna</div>
+              <div className="teamRole">Frontend Developer</div>
             </div>
           </div>
+          <div className="teamCards">
+            <div className="teamCard">
+              <img src={team_eight} alt="" className="teamImg" />
+              <br />
+              <div className="teamName">Anob-Ejah Takon</div>
+              <div className="teamRole">Frontend Developer</div>
+            </div>
+          </div>
+
           <div className="teamCards">
             <div className="teamCard">
               <img src={team_ninth} alt="" className="teamImg" />
               <br />
+              <div className="teamName">Victoria Adedayo</div>
+              <div className="teamRole">Backend Engineer</div>
+            </div>
+          </div>
+          <div className="teamCards">
+            <div className="teamCard">
+              <img src={team_ten} alt="" className="teamImg" />
+              <br />
+              <div className="teamName">Rayhan Alshwehdi</div>
+              <div className="teamRole">Data Analysis</div>
+            </div>
+          </div>
+          <div className="teamCards">
+            <div className="teamCard">
+              <img src={team_eleven} alt="" className="teamImg" />
+              <br />
               <div className="teamName">Anoke Success Ozioma</div>
               <div className="teamRole">Cyber Security</div>
             </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div>
+          <h3>Join Us in Transforming Agriculture</h3>
+          <p>
+            Together, we can revolutionize agriculture in Nigeria and beyond.
+            Whether you're a farmer looking to adopt sustainable practices or a
+            business and individual seeking quality agricultural products for
+            your business or family, AgritechLink is here to support you every
+            step of the way.
+          </p>
+          <div>
+            <p>Explore Agritechlink Platform</p>
+            <img src={arrow_image} alt="explore image" />
+          </div>
+          <div>
+            <h3>Sign Up </h3>
+            <img src={arrow_image} alt="signup in the about page" />
           </div>
         </div>
       </div>
