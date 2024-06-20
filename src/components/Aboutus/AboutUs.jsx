@@ -9,7 +9,7 @@ import team_fifth from "../../assets/fifth-image.svg";
 import team_six from "../../assets/sixth-image.png";
 import team_seventh from "../../assets/teamChidinma.png";
 import team_eight from "../../assets/teamAnob-EjahTakon.png";
-import team_ninth from "../../assets/ninth-image.png";
+import team_ninth from "../../assets/TeamVictoriaAdedayo.png";
 import team_ten from "../../assets/teamRayhanAlshwehdi.png";
 import team_eleven from "../../assets/ninth-image.png";
 import arrow_image from "../../assets/arrowleft.png";
@@ -29,7 +29,7 @@ const links = [
     href: "/Aboutus",
   },
   {
-    label: "Products",
+    label: "Products",      
     href: "/Products",
   },
   {

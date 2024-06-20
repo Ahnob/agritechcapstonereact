@@ -82,9 +82,10 @@ function Home() {
               degradation.
             </span>
           </div>
-          <div>
-            <button className="Learnmore-btn">Learn more</button>
-          </div>
+        </div>
+
+        <div>
+          <button className="Learnmore-btn">Learn more</button>
         </div>
       </div>
 

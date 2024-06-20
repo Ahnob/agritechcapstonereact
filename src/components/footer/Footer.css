@@ -1,12 +1,12 @@
 .footer {
-  background-color: rgb(25, 84, 0);
+  background: #216d00;
   padding: 28px 12px;
   width: 100%;
 }
 
 .footer-content {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   gap: 20px;
 }
 
@@ -67,5 +67,10 @@
 @media (min-width: 1440px) {
   .none {
     display: block;
+  }
+
+  .about-content {
+    flex-direction: row;
+    gap: 20px;
   }
 }
