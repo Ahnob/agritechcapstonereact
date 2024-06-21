@@ -83,10 +83,6 @@ function Home() {
             </span>
           </div>
         </div>
-
-        <div>
-          <button className="Learnmore-btn">Learn more</button>
-        </div>
       </div>
 
       {/* <div className="aboutUsPgTxth3">
