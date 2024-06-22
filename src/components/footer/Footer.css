@@ -24,7 +24,7 @@
 }
 
 .list h5 {
-  font-size: 14px;
+  font-size: 24px;
   font-weight: 600;
   color: white;
   line-height: 20px;
@@ -36,13 +36,16 @@
 }
 
 .the-list li {
-  font-size: 10.87px;
+  font-size: 22px;
   list-style: none;
   color: white;
   line-height: 25px;
   font-weight: 400;
 }
 
+.navigation {
+  font-size: 24px;
+}
 .navigation {
   margin-right: 10px;
 }

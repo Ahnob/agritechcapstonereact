@@ -83,7 +83,7 @@ function Footer() {
             </ul>
           </div>
           <div className="list">
-            <h5>Contact Us</h5>
+            <h5 className="Navigation">Contact Us</h5>
             <ul className="the-list">
               <li>Email: uphaqar@gmail.com</li>
               <li>Phone No:+23480987654</li>
