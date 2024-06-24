@@ -329,9 +329,30 @@
   margin-top: 10px;
 }
 
+.transforming-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.transforing-second-container {
+  width: 100%;
+  max-width: 800px;
+}
+.transforming-header {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  margin-top: 30px;
+}
+
 .flex {
   display: flex;
+  gap: 20px;
 }
+
 @media screen and (min-width: 1025px) {
   .about-para {
     flex-direction: column;
@@ -375,5 +396,6 @@
 
   .teamCardsGrid {
     grid-template-columns: repeat(3, 2fr);
+    gap: 20px;
   }
 }

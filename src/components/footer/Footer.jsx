@@ -76,7 +76,7 @@ function Footer() {
               </li>
 
               <li className="none">
-                <Link className="footer-link" to="/market-place" onClick="">
+                <Link className="footer-link" to="/Marketplace" onClick="">
                   Market Place
                 </Link>
               </li>

@@ -12,7 +12,7 @@ import team_eight from "../../assets/teamAnob-EjahTakon.png";
 import team_ninth from "../../assets/TeamVictoriaAdedayo.png";
 import team_ten from "../../assets/teamRayhanAlshwehdi.png";
 import team_eleven from "../../assets/ninth-image.png";
-import arrow_image from "../../assets/arrowleft.png";
+import vector_icon from "../../assets/Vector-icon.svg";
 
 import aboutPgIcon from "../../assets/aboutPgIcon.png";
 import Footer from "../footer/Footer";
@@ -29,7 +29,7 @@ const links = [
     href: "/Aboutus",
   },
   {
-    label: "Products",      
+    label: "Products",
     href: "/Products",
   },
   {
@@ -276,22 +276,26 @@ const AboutUs = () => {
         </div>
       </div>
       <div>
-        <div>
-          <h3>Join Us in Transforming Agriculture</h3>
-          <p>
-            Together, we can revolutionize agriculture in Nigeria and beyond.
-            Whether you're a farmer looking to adopt sustainable practices or a
-            business and individual seeking quality agricultural products for
-            your business or family, AgritechLink is here to support you every
-            step of the way.
-          </p>
-          <div className="flex">
-            <p>Explore Agritechlink Platform</p>
-            <img src={arrow_image} alt="explore image" />
-          </div>
-          <div className="flex">
-            <h3>Sign Up </h3>
-            <img src={arrow_image} alt="signup in the about page" />
+        <div className="transforming-container">
+          <div className="transforing-second-container">
+            <h3 className="transforming-header">
+              Join Us in Transforming Agriculture
+            </h3>
+            <p className="transforming-paragraph">
+              Together, we can revolutionize agriculture in Nigeria and beyond.
+              Whether you're a farmer looking to adopt sustainable practices or
+              a business and individual seeking quality agricultural products
+              for your business or family, AgritechLink is here to support you
+              every step of the way.
+            </p>
+            <div className="flex">
+              <p>Explore Agritechlink Platform</p>
+              <img src={vector_icon} alt="explore image" />
+            </div>
+            <div className="flex">
+              <h3>Sign Up </h3>
+              <img src={vector_icon} alt="signup in the about page" />
+            </div>
           </div>
         </div>
       </div>
