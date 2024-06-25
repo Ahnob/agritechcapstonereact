@@ -234,7 +234,9 @@ const AboutUs = () => {
           </div>
           <div className="teamCards">
             <div className="teamCard">
-              <img src={team_seventh} alt="" className="teamImg" />
+              <div className="image-container">
+                <img src={team_seventh} alt="" className="teamImg" />
+              </div>
               <br />
               <div className="teamName">Chidinma Ugonna</div>
               <div className="teamRole">Frontend Developer</div>
