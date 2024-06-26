@@ -13,11 +13,11 @@ import team_ninth from "../../assets/TeamVictoriaAdedayo.png";
 import team_ten from "../../assets/teamRayhanAlshwehdi.png";
 import team_eleven from "../../assets/ninth-image.png";
 import vector_icon from "../../assets/Vector-icon.svg";
-
 import aboutPgIcon from "../../assets/aboutPgIcon.png";
 import Footer from "../footer/Footer";
 import "./Aboutus.css";
 import Navbar from "../Navbar/Navbar";
+import TeamMember from "../TeamMember/TeamMember";
 
 const links = [
   {
@@ -39,6 +39,65 @@ const links = [
   {
     label: "Marketplace",
     href: "/Marketplace",
+  },
+];
+
+const teamMembers = [
+  {
+    name: "Mercy Fred-Ekhose",
+    image: team_first,
+    role: "Team Lead (Product Manager)",
+  },
+  {
+    name: "Mutiyat Salami",
+    image: team_second,
+    role: "Product Manager",
+  },
+  {
+    name: "Moromoluwa Olusanjo",
+    image: team_third,
+    role: "Product Manager",
+  },
+  {
+    name: "Ifeoma Kalu",
+    image: team_fourth,
+    role: "Product Designer",
+  },
+  {
+    name: "Zainat Ojewole",
+    image: team_fifth,
+    role: "Product Designer",
+  },
+  {
+    name: "Folashade Adeware",
+    image: team_six,
+    role: "Product Designer",
+  },
+  {
+    name: "Chidinma Ugonna",
+    image: team_seventh,
+    role: "Frontend Developer",
+  },
+  {
+    name: "Anob-Ejah Takon",
+    image: team_eight,
+    role: "Frontend Developer",
+  },
+
+  {
+    name: "Victoria Adedayo",
+    image: team_ninth,
+    role: "Backend Engineer",
+  },
+  {
+    name: "Rayhan Alshwehdi",
+    image: team_ten,
+    role: "Data Analysis",
+  },
+  {
+    name: "Anoke Success Ozioma",
+    image: team_eleven,
+    role: "Cyber Security",
   },
 ];
 
@@ -184,97 +243,15 @@ const AboutUs = () => {
           <div className="agriI">(Agritech Innovators)</div>
         </div>
         <div className="teamCardsGrid">
-          <div className="teamCards">
-            <div className="teamCard">
-              <img src={team_first} alt="" className="teamImg" />
-              <br />
-              <div className="teamName">Mercy Fred-Ekhose</div>
-              <div className="teamRole">Team Lead (Product Manager)</div>
-            </div>
-          </div>
-          <div className="teamCards">
-            <div className="teamCard">
-              <img src={team_second} alt="" className="teamImg" />
-              <br />
-              <div className="teamName">Mutiyat Salami</div>
-              <div className="teamRole">Product Manager</div>
-            </div>
-          </div>
-          <div className="teamCards">
-            <div className="teamCard">
-              <img src={team_third} alt="" className="teamImg" />
-              <br />
-              <div className="teamName">Moromoluwa Olusanjo</div>
-              <div className="teamRole">Product Manager</div>
-            </div>
-          </div>
-          <div className="teamCards">
-            <div className="teamCard">
-              <img src={team_fourth} alt="" className="teamImg" />
-              <br />
-              <div className="teamName">Ifeoma Kalu</div>
-              <div className="teamRole">Product Designer</div>
-            </div>
-          </div>
-          <div className="teamCards">
-            <div className="teamCard">
-              <img src={team_fifth} alt="" className="teamImg" />
-              <br />
-              <div className="teamName">Zainat Ojewole</div>
-              <div className="teamRole">Product Designer</div>
-            </div>
-          </div>
-          <div className="teamCards">
-            <div className="teamCard">
-              <img src={team_six} alt="" className="teamImg" />
-              <br />
-              <div className="teamName">Folashade Adeware</div>
-              <div className="teamRole">Product Designer</div>
-            </div>
-          </div>
-          <div className="teamCards">
-            <div className="teamCard">
-              <div className="image-container">
-                <img src={team_seventh} alt="" className="teamImg" />
-              </div>
-              <br />
-              <div className="teamName">Chidinma Ugonna</div>
-              <div className="teamRole">Frontend Developer</div>
-            </div>
-          </div>
-          <div className="teamCards">
-            <div className="teamCard">
-              <img src={team_eight} alt="" className="teamImg" />
-              <br />
-              <div className="teamName">Anob-Ejah Takon</div>
-              <div className="teamRole">Frontend Developer</div>
-            </div>
-          </div>
-
-          <div className="teamCards">
-            <div className="teamCard">
-              <img src={team_ninth} alt="" className="teamImg" />
-              <br />
-              <div className="teamName">Victoria Adedayo</div>
-              <div className="teamRole">Backend Engineer</div>
-            </div>
-          </div>
-          <div className="teamCards">
-            <div className="teamCard">
-              <img src={team_ten} alt="" className="teamImg" />
-              <br />
-              <div className="teamName">Rayhan Alshwehdi</div>
-              <div className="teamRole">Data Analysis</div>
-            </div>
-          </div>
-          <div className="teamCards">
-            <div className="teamCard">
-              <img src={team_eleven} alt="" className="teamImg" />
-              <br />
-              <div className="teamName">Anoke Success Ozioma</div>
-              <div className="teamRole">Cyber Security</div>
-            </div>
-          </div>
+          {teamMembers.map(function (member) {
+            return (
+              <TeamMember
+                name={member.name}
+                image={member.image}
+                role={member.role}
+              />
+            );
+          })}
         </div>
       </div>
       <div>
