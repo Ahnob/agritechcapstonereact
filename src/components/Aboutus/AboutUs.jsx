@@ -267,13 +267,15 @@ const AboutUs = () => {
               for your business or family, AgritechLink is here to support you
               every step of the way.
             </p>
-            <div className="flex">
-              <p>Explore Agritechlink Platform</p>
-              <img src={vector_icon} alt="explore image" />
-            </div>
-            <div className="flex">
-              <h3>Sign Up </h3>
-              <img src={vector_icon} alt="signup in the about page" />
+            <div className="last-container">
+              <div className="flex">
+                <h3>Explore Agritechlink Platform</h3>
+                <img src={vector_icon} className="vector-icon" alt="explore image" />
+              </div>
+              <div className="flex">
+                <h3>Sign Up </h3>
+                <img src={vector_icon} className="vector-icon" alt="signup in the about page" />
+              </div>
             </div>
           </div>
         </div>
