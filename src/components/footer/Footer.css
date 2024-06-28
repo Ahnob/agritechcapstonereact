@@ -24,7 +24,7 @@
 }
 
 .list h5 {
-  font-size: 20px;
+  font-size: 19px;
   font-weight: 600;
   color: white;
   line-height: 20px;
@@ -36,7 +36,7 @@
 }
 
 .the-list li {
-  font-size: 15px;
+  font-size: 19px;
   list-style: none;
   color: white;
   line-height: 25px;
@@ -69,12 +69,12 @@
   }
 
   .logo-image-text {
-    font-size: 24px;
+    font-size: 19px;
     margin-top: 10px;
   }
 
   .the-list li {
-    font-size: 24px;
+    font-size: 19px;
   }
 }
 
@@ -89,13 +89,13 @@
   }
 
   .list h5 {
-    font-size: 24px;
+    font-size: 19px;
     font-weight: 600;
     line-height: 20px;
     margin-bottom: 10px;
   }
 
   .the-list li {
-    font-size: 24px;
+    font-size: 19px;
   }
 }

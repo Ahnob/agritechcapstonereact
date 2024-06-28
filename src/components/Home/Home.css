@@ -20,7 +20,7 @@
 
 .text {
   color: white;
-  font-size: 28px; /* Adjust as needed */
+  font-size: 28px; 
   width: 326px;
   margin: 25px 0 0 15px;
 }
@@ -36,16 +36,17 @@
   line-height: 1.5;
   color: white;
 }
-.get-started button {
-  margin: 15px 0;
+
+.get-started_button {
   background-color: rgb(241, 201, 40);
   border-radius: 10px;
-  padding: 12px 25px;
-  /* position: absolute; */
+  padding: 16px 25px;
   color: #000;
   font-size: 20px;
   border: none;
   font-weight: 500;
+  font-weight: 900;
+  margin-left: 20px;
 }
 
 .getstarted_button:hover {
@@ -60,6 +61,7 @@
   height: 100%;
   text-align: center;
   line-height: inherit;
+  font-weight: 600;
 }
 
 .learnmore_btn {
@@ -88,11 +90,6 @@
     padding: 20px;
     font-size: 18px;
     line-height: 1.6;
-  }
-
-  .get-started button {
-    padding: 10px 20px;
-    font-size: 18px;
   }
 
   .whatweoffer-hr {
