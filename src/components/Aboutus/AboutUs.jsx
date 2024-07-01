@@ -18,6 +18,9 @@ import Footer from "../footer/Footer";
 import "./Aboutus.css";
 import Navbar from "../Navbar/Navbar";
 import TeamMember from "../TeamMember/TeamMember";
+import email_icon from "../../assets/email.png";
+import human_icon from "../../assets/Phone-icon.svg";
+import phone_icon from "../../assets/Phone.png";
 
 const links = [
   {
@@ -270,13 +273,46 @@ const AboutUs = () => {
             <div className="last-container">
               <div className="flex">
                 <h3>Explore Agritechlink Platform</h3>
-                <img src={vector_icon} className="vector-icon" alt="explore image" />
+                <img
+                  src={vector_icon}
+                  className="vector-icon"
+                  alt="explore image"
+                />
               </div>
               <div className="flex">
                 <h3>Sign Up </h3>
-                <img src={vector_icon} className="vector-icon" alt="signup in the about page" />
+                <img
+                  src={vector_icon}
+                  className="vector-icon"
+                  alt="signup in the about page"
+                />
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div>
+          <h2>Contact Us for Partnership Oppourtunities</h2>
+        </div>
+        <div className="last-container">
+          <div className="input-box">
+            <img src={human_icon} alt="human_icon" />
+            <input type="text" placeholder="Full Name"></input>
+          </div>
+          <div className="input-box">
+            <img src={email_icon} />
+            <input type="text" placeholder="Email address"></input>
+          </div>
+          <div className="input-box">
+            <img src={phone_icon} />
+            <input type="text" placeholder="Phone Number"></input>
+          </div>
+          <div className="text-area-container">
+            <textarea
+              className="text-area input-field"
+              placeholder="Your message"
+            ></textarea>
           </div>
         </div>
       </div>
