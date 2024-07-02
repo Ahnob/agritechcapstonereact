@@ -348,8 +348,17 @@
   gap: 20px;
 }
 
-.vector-icon {
-  color: #2e9900;
+.vector-icon img {
+  filter: #2e9900;
+}
+
+.custom-textarea {
+  width: 550px;
+  height: 200px;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 4px;
+  resize: none;
 }
 
 @media screen and (min-width: 1025px) {

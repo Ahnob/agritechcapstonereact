@@ -62,9 +62,9 @@ function Contactus() {
             <img src={phone_icon} />
             <input type="text" placeholder="Phone Number"></input>
           </div>
-          <div className="text-area-container">
+          <div className="">
             <textarea
-              className="text-area input-field"
+              className="custom-textarea input-field"
               placeholder="Your message"
             ></textarea>
           </div>

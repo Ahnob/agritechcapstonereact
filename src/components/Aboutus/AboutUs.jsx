@@ -291,11 +291,11 @@ const AboutUs = () => {
           </div>
         </div>
       </div>
-      <div>
+      <div className="last-container">
         <div>
-          <h2>Contact Us for Partnership Oppourtunities</h2>
+          <h1>Contact Us for Partnership Oppourtunities</h1>
         </div>
-        <div className="last-container">
+        <div>
           <div className="input-box">
             <img src={human_icon} alt="human_icon" />
             <input type="text" placeholder="Full Name"></input>
@@ -308,9 +308,9 @@ const AboutUs = () => {
             <img src={phone_icon} />
             <input type="text" placeholder="Phone Number"></input>
           </div>
-          <div className="text-area-container">
+          <div>
             <textarea
-              className="text-area input-field"
+              className="custom-textarea input-field"
               placeholder="Your message"
             ></textarea>
           </div>
