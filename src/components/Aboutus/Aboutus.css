@@ -336,6 +336,7 @@
 
 .last-container {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 20px;
@@ -359,6 +360,10 @@
   border: 1px solid gray;
   border-radius: 4px;
   resize: none;
+}
+
+.last-container-h1 {
+  color: #000;
 }
 
 @media screen and (min-width: 1025px) {
@@ -405,5 +410,9 @@
   .teamCardsGrid {
     grid-template-columns: repeat(3, 2fr);
     gap: 20px;
+  }
+
+  .last-container {
+    flex-direction: row;
   }
 }

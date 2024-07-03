@@ -292,9 +292,7 @@ const AboutUs = () => {
         </div>
       </div>
       <div className="last-container">
-        <div>
-          <h1>Contact Us for Partnership Oppourtunities</h1>
-        </div>
+        <h1 className="last-container-h1"> Contact Us for Partnership Oppourtunities</h1>
         <div>
           <div className="input-box">
             <img src={human_icon} alt="human_icon" />
