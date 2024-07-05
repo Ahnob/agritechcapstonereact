@@ -14,6 +14,7 @@ import Onboarding from "./components/Alreadyhaveanaccount/Onboarding";
 import Whatweoffer from "./components/Whatweoffer/Whatweoffer";
 import Products from "./components/Products/Product";
 import MarketPlace from "./components/Marketplace/Marketplace";
+import SearchInput from "./components/searchinput/SearchInput";
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
         <Route path="/onboarding" element={<Onboarding />} />
         <Route path="/Products" element={<Products />} />
         <Route path="/Marketplace" element={<MarketPlace />} />
+        <Route path="/searchinput" element={<SearchInput />} />
       </Routes>
     </BrowserRouter>
   );
