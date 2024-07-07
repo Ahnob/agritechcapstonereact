@@ -1,10 +1,13 @@
 import filtericon from "../../assets/filter-icon.svg";
-import "./Filter.css"
+import "./Filter.css";
 function FilterButton() {
   return (
     <div>
-      <image src={filtericon} alt="filter-icon" />
-      <p>Filters</p>
+      <button className="filterBtn">
+        <img src={filtericon} alt="filter-icon" />
+
+        <p>Filters</p>
+      </button>
     </div>
   );
 }

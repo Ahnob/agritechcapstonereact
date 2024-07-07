@@ -15,6 +15,7 @@ import Whatweoffer from "./components/Whatweoffer/Whatweoffer";
 import Products from "./components/Products/Product";
 import MarketPlace from "./components/Marketplace/Marketplace";
 import SearchInput from "./components/searchinput/SearchInput";
+import FilterButton from "./components/filter/FilterButton";
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
         <Route path="/Products" element={<Products />} />
         <Route path="/Marketplace" element={<MarketPlace />} />
         <Route path="/searchinput" element={<SearchInput />} />
+        <Route path="/filterbutton" element={<FilterButton />} />
       </Routes>
     </BrowserRouter>
   );

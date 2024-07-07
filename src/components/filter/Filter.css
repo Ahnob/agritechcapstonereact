@@ -1,0 +1,8 @@
+.filterBtn {
+  background: #fff;
+  display: flex;
+  gap: 10px;
+  padding: 12px 20px;
+  border: 1px solid grey;
+  margin: 10px;
+}
