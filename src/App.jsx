@@ -2,7 +2,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Login from "./components/Login/Login";
 import Home from "./components/Home/Home";
 import AccountVerify from "./components/Accountverify/AccountVerify";
-import Settings from "././components/Dashboard/Settings/Settings";
 import Subscription from "./components/Dashboard/Subscription/Subscription";
 import FarmerSignup from "./components/Signup/Farmersignup/FarmerSignup";
 import B2BSignup from "./components/Signup/B2B/B2BSignup";
@@ -16,12 +15,12 @@ import Products from "./components/Products/Product";
 import MarketPlace from "./components/Marketplace/Marketplace";
 import SearchInput from "./components/searchinput/SearchInput";
 import FilterButton from "./components/filter/FilterButton";
+import MarketplaceDashboard from "./dashboard/Marketplace";
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/settings" element={<Settings />} />
         <Route path="/whatweoffer" element={<Whatweoffer />} />
         <Route path="/subscription" element={<Subscription />} />
         <Route path="/" element={<Home />} />
@@ -38,6 +37,10 @@ function App() {
         <Route path="/Marketplace" element={<MarketPlace />} />
         <Route path="/searchinput" element={<SearchInput />} />
         <Route path="/filterbutton" element={<FilterButton />} />
+        <Route
+          path="/marketplacedashboard"
+          element={<MarketplaceDashboard />}
+        />
       </Routes>
     </BrowserRouter>
   );
